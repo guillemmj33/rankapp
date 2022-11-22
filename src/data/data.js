@@ -5,6 +5,7 @@ const data = [
     rating: 4.8,
     type: 'Online store',
     image: '',
+    device: 'Smartphone'
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ const data = [
     rating: 3.7,
     type: 'Series and films',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ const data = [
     rating: 4.6,
     type: 'Real state',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ const data = [
     rating: 4.6,
     type: 'Jobs',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ const data = [
     rating: 4.7,
     type: 'Navigation',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ const data = [
     rating: 4.6,
     type: 'Online store',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ const data = [
     rating: 4.8,
     type: 'Food',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ const data = [
     rating: 4.5,
     type: 'Series and films',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 9,
@@ -61,6 +69,7 @@ const data = [
     rating: 2.1,
     type: 'Series and films',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 10,
@@ -68,6 +77,7 @@ const data = [
     rating: 3.4,
     type: 'Series and films',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 11,
@@ -75,6 +85,7 @@ const data = [
     rating: 4.7,
     type: 'Online store',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 12,
@@ -82,6 +93,7 @@ const data = [
     rating: 4.6,
     type: 'Sharing',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 13,
@@ -89,6 +101,7 @@ const data = [
     rating: 4.8,
     type: 'Photos',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 14,
@@ -96,6 +109,7 @@ const data = [
     rating: 4.5,
     type: 'Music',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 15,
@@ -103,6 +117,7 @@ const data = [
     rating: 4.6,
     type: 'Videos',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 16,
@@ -110,6 +125,7 @@ const data = [
     rating: 4.7,
     type: 'Streaming',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 17,
@@ -117,6 +133,7 @@ const data = [
     rating: 4.4,
     type: 'Dating',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 18,
@@ -124,6 +141,7 @@ const data = [
     rating: 4.8,
     type: 'Videos',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 19,
@@ -131,6 +149,7 @@ const data = [
     rating: 3.9,
     type: 'Dating',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 20,
@@ -138,6 +157,7 @@ const data = [
     rating: 4.1,
     type: 'Jobs',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 21,
@@ -145,6 +165,7 @@ const data = [
     rating: 4.6,
     type: 'Streaming',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 22,
@@ -152,6 +173,7 @@ const data = [
     rating: 4.8,
     type: 'Photos',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 23,
@@ -159,6 +181,7 @@ const data = [
     rating: 4.8,
     type: 'Photos',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 24,
@@ -166,6 +189,7 @@ const data = [
     rating: 4.7,
     type: 'Videos',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 25,
@@ -173,6 +197,7 @@ const data = [
     rating: 4.7,
     type: 'Sharing',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 26,
@@ -180,6 +205,7 @@ const data = [
     rating: 4.6,
     type: 'Navigation',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 27,
@@ -187,6 +213,7 @@ const data = [
     rating: 4.8,
     type: 'Photos',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 28,
@@ -194,6 +221,7 @@ const data = [
     rating: 4.6,
     type: 'Writing',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 29,
@@ -201,6 +229,7 @@ const data = [
     rating: 4.6,
     type: 'Food',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 30,
@@ -208,6 +237,7 @@ const data = [
     rating: 4.6,
     type: 'Chat',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 31,
@@ -215,6 +245,7 @@ const data = [
     rating: 4.6,
     type: 'Writing',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 32,
@@ -222,6 +253,7 @@ const data = [
     rating: 4.6,
     type: 'Languages',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 33,
@@ -229,6 +261,7 @@ const data = [
     rating: 4.5,
     type: 'Languages',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 34,
@@ -236,6 +269,7 @@ const data = [
     rating: 4.6,
     type: 'Chat',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 35,
@@ -243,6 +277,7 @@ const data = [
     rating: 4.1,
     type: 'Navigation',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 36,
@@ -250,6 +285,7 @@ const data = [
     rating: 4.6,
     type: 'Chat',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 37,
@@ -257,6 +293,7 @@ const data = [
     rating: 4.7,
     type: 'Online store',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 38,
@@ -264,6 +301,7 @@ const data = [
     rating: 4.8,
     type: 'Photos',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 39,
@@ -271,6 +309,7 @@ const data = [
     rating: 3.9,
     type: 'Videos',
     image: '',
+    device: 'Desktop'
   },
   {
     id: 40,
@@ -278,6 +317,7 @@ const data = [
     rating: 4.5,
     type: 'Food',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 41,
@@ -285,6 +325,7 @@ const data = [
     rating: 4.6,
     type: 'Dating',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 42,
@@ -292,6 +333,7 @@ const data = [
     rating: 4.8,
     type: 'Online store',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 43,
@@ -299,6 +341,7 @@ const data = [
     rating: 4.8,
     type: 'Online store',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 44,
@@ -306,6 +349,7 @@ const data = [
     rating: 4.7,
     type: 'Online store',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 45,
@@ -313,6 +357,7 @@ const data = [
     rating: 4.8,
     type: 'Online store',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 46,
@@ -320,6 +365,7 @@ const data = [
     rating: 4.8,
     type: 'Online store',
     image: '',
+    device: 'Tablet'
   },
   {
     id: 47,
@@ -327,6 +373,7 @@ const data = [
     rating: 4.8,
     type: 'Online store',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 48,
@@ -334,6 +381,7 @@ const data = [
     rating: 4.8,
     type: 'Online store',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 49,
@@ -341,6 +389,7 @@ const data = [
     rating: 4.1,
     type: 'Chat',
     image: '',
+    device: 'Mobile'
   },
   {
     id: 50,
@@ -348,6 +397,7 @@ const data = [
     rating: 4.7,
     type: 'Food',
     image: '',
+    device: 'Mobile'
   }
 ];
 
