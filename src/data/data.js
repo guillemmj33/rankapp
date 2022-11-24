@@ -13,7 +13,7 @@ const data = [
     name: 'HBO Max',
     rating: 3.7,
     type: 'Series and films',
-    image: 'HBO max.jfif',
+    image: 'hbo.png',
     device: 'Desktop',
     description: 'HBO Max is a streaming app that combines all of HBO with even more must-see TV series, blockbuster movies, and exclusive Max Originals.'
   },
@@ -67,7 +67,7 @@ const data = [
     name: 'Disney+',
     rating: 4.5,
     type: 'Series and films',
-    image: 'disneyplus.webp',
+    image: 'disney-plus.png',
     device: 'Tablet',
     description: 'Disney+ te ofrece entretenimiento sin límite con Disney, Pixar, Marvel, Star Wars, National Geographic y Star, todo en un mismo lugar. Podrás ver los últimos estrenos de series y películas, clásicos de siempre, producciones originales y mucho más.'
   },
@@ -103,7 +103,7 @@ const data = [
     name: 'WeTransfer',
     rating: 4.6,
     type: 'Sharing',
-    image: 'we-transfer.jfif',
+    image: 'we-transfer.png',
     device: 'Tablet',
     description: 'Recopilar es la mejor manera de guardar todo lo que te inspira y alimenta tus ideas. Cargue imágenes y videos, guarde enlaces y cualquier cosa desde sus aplicaciones, luego organícelo todo en paneles visuales. ¡Puedes compartir tableros (si quieres) y trabajar juntos en un tablero!'
   },
@@ -139,7 +139,7 @@ const data = [
     name: 'Twitch',
     rating: 4.7,
     type: 'Streaming',
-    image: 'twitch.webp',
+    image: 'twitch.png',
     device: 'Desktop',
     description: 'Twitch es un lugar donde miles de comunidades se reúnen para ver a sus streamers favoritos, disfrutar de los juegos que más les gustan, reírse, apoyarse mutuamente y mucho más.'
   },
@@ -229,7 +229,7 @@ const data = [
     name: 'Strava',
     rating: 4.6,
     type: 'Navigation',
-    image: 'strava.jfif',
+    image: 'strava.png',
     device: 'Desktop',
     description: 'Strava te permite seguir toda tu actividad física como una red social. Reunimos todo lo relacionado con tus entrenamientos en un solo lugar para que puedas compartirlos con amigos y seguidores.'
   },
