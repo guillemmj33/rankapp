@@ -21,9 +21,15 @@ p {
 }
 
 :root {
-  --title: #ffff;
-  --text: #ffff;
+  --title: #ffffff;
+  --text: #ffffff;
+  --white: #ffffff;
+  --grey: #BDBDBD;
+  --black-1: #000000;
+  --black-2: #313131;
   --blue: #24E0FA;
   --purple: #720E9E;
   --pink: #D74192;
+  --font-text: 'Inter', sans-serif;
+  --font-title: 'Poppins', sans-serif;
 }
