@@ -2,8 +2,8 @@ import './App.css';
 import './global.scss';
 import Home from './pages/Home/Home';
 import Search from './pages/Search/Search';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar.jsx';
+
 import { 
   BrowserRouter as Router, 
   Routes, 
@@ -19,7 +19,6 @@ function App() {
             <Route path='/' element={<Home />}></Route>
             <Route path='/search' element={<Search />}></Route>
         </Routes>
-        <Footer />
       </Router>
     </div>
   );

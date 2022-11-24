@@ -21,6 +21,7 @@ p {
 }
 
 :root {
+  --grey: #313131;
   --title: #ffff;
   --text: #ffff;
   --blue: #24E0FA;
