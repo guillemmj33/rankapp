@@ -1,18 +1,33 @@
 main {
-  .filterBtn {
-    display: block;
+  .homeBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
 
-    i {
-      margin: 4px 0 0 5px;
-      float: left;
-    }
-  }
+    .filterBtn {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      gap: 10px;
 
-  .devicesBtn {
-    display: block;
-    i {
-        margin: 4px 0 0 5px;
+      i {
+        margin: 11px 0 0 5px;
         float: left;
       }
+    }
+
+    .devicesBtn {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      gap: 10px;
+
+      i {
+        margin: 11px 0 0 5px;
+        float: left;
+      }
+    }
   }
 }

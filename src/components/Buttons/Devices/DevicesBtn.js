@@ -8,10 +8,10 @@ export const DevicesBtnMobile = styled.button`
   text-align: right;
   color: var(--white);
   background-color: var(--black-2);
-  width: 50%;
+  width: 100%;
   padding: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
 `;
 
 //Style of the filter tablet button
@@ -22,10 +22,10 @@ export const DevicesBtnTablet = styled.button`
   text-align: right;
   color: var(--white);
   background-color: var(--black-2);
-  width: 50%;
+  width: 100%;
   padding: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
 `;
 
 //Style of the filter desktop button
@@ -36,8 +36,8 @@ export const DevicesBtnDesktop = styled.button`
   text-align: right;
   color: var(--white);
   background-color: var(--black-2);
-  width: 50%;
+  width: 100%;
   padding: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
 `;

@@ -8,10 +8,10 @@ export const FilterBtnPopular = styled.button`
   text-align: right;
   color: var(--black);
   background-color: var(--purple);
-  width: 50%;
+  width: 100%;
   padding: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
 `;
 
 //Style of the filter medium button
@@ -22,10 +22,10 @@ export const FilterBtnMedium = styled.button`
   text-align: right;
   color: var(--black);
   background-color: var(--pink);
-  width: 50%;
+  width: 100%;
   padding: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
 `;
 
 //Style of the filter worst button
@@ -36,8 +36,8 @@ export const FilterBtnWorst = styled.button`
   text-align: right;
   color: var(--black);
   background-color: var(--blue);
-  width: 50%;
+  width: 100%;
   padding: 10px;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
 `;
