@@ -1,7 +1,18 @@
 main {
   .filterBtn {
+    display: block;
+
     i {
-      margin-left: 0;
+      margin: 4px 0 0 5px;
+      float: left;
     }
+  }
+
+  .devicesBtn {
+    display: block;
+    i {
+        margin: 4px 0 0 5px;
+        float: left;
+      }
   }
 }

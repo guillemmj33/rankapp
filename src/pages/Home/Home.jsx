@@ -6,7 +6,10 @@ const Home = () => {
   return (
     <main>
       <div className="filterBtn">
-        <FilterBtnPopular><i class="fa-regular fa-face-laugh"></i>Populares</FilterBtnPopular>
+        <FilterBtnPopular>
+          <i class="fa-regular fa-face-laugh"></i>
+          Populares
+        </FilterBtnPopular>
         <FilterBtnMedium><i class="fa-regular fa-face-meh"></i>Intermedios</FilterBtnMedium>
         <FilterBtnWorst><i class="fa-regular fa-face-frown"></i>Peor Valorados</FilterBtnWorst>
       </div>
