@@ -1,19 +1,21 @@
 import React from 'react';
-import {NavContainer, HomeContainer,RankingContainer, PlusContainer} from './Navbar';
-import { FaHome, FaPlus, FaTrophy } from "react-icons/fa";
+import {NavContainer, RedesContainer,RankingContainer, PlusContainer} from './Navbar';
+import { FaUserFriends, FaPlus, FaTrophy } from "react-icons/fa";
 import {Link} from 'react-router-dom';
+import Logo from './Logo.jsx';
 
 
 const Navbar = () => {
   return (
     <>
+    <Logo></Logo>
     <NavContainer>
-      <HomeContainer>
-        <h3>Home</h3>
-        <FaHome>
+      <RedesContainer>
+        <h3>Redes</h3>
+        <FaUserFriends>
         <Link to=''></Link>
-        </FaHome>
-      </HomeContainer>
+        </FaUserFriends>
+      </RedesContainer>
       <RankingContainer>
           <h3>Ranking</h3>
           <FaTrophy>

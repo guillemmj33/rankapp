@@ -42,7 +42,7 @@ export const NavContainer = styled.div`
     }
 `;
 
-export const HomeContainer = styled.div`
+export const RedesContainer = styled.div`
     width: 33%;
     height: 100%;
     display: flex;
