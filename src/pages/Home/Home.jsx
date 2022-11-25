@@ -4,6 +4,7 @@ import { DevicesBtnMobile, DevicesBtnTablet, DevicesBtnDesktop } from '../../com
 
 const Home = () => {
   return (
+
     <main>
       <div className="filterBtn">
         <FilterBtnPopular>
@@ -19,6 +20,7 @@ const Home = () => {
         <DevicesBtnDesktop><i class="fa-solid fa-desktop"></i>Versión escritorio</DevicesBtnDesktop> 
       </div>
     </main>
+
   )
 };
 

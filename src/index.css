@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: black;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,6 +31,7 @@ p {
   --grey: #BDBDBD;
   --black-1: #000000;
   --black-2: #313131;
+
   --blue: #24E0FA;
   --purple: #720E9E;
   --pink: #D74192;
