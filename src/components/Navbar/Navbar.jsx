@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavContainer, RedesContainer,RankingContainer, PlusContainer} from './Navbar';
+import { NavContainer, RedesContainer,RankingContainer, PlusContainer } from './Navbar';
 import { FaUserFriends, FaPlus, FaTrophy } from "react-icons/fa";
 import {Link} from 'react-router-dom';
 import Logo from './Logo.jsx';
