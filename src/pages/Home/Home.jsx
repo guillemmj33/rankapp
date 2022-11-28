@@ -11,7 +11,7 @@ const Home = () => {
       <section className="homeBtn">
         <div className="filterBtn">
           <FilterBtnPopular><i class="fa-regular fa-face-laugh fa-lg"></i>Populares</FilterBtnPopular>
-          <FilterBtnMedium><i class="fa-regular fa-face-meh fa-lg"></i>Intermedios</FilterBtnMedium>
+          <FilterBtnMedium><i class="fa-regular fa-face-meh fa-lg"></i>Intermedias</FilterBtnMedium>
           <FilterBtnWorst><i class="fa-regular fa-face-frown fa-lg"></i>Peores</FilterBtnWorst>
         </div>
         <div className="devicesBtn">
@@ -20,6 +20,8 @@ const Home = () => {
           <DevicesBtnDesktop><i class="fa-solid fa-desktop fa-lg"></i>Escritorio</DevicesBtnDesktop> 
         </div>
       </section>
+      {/* importaremos la data en el siguiente div */}
+      <div className="app-data"></div>
         <NavContainer>
           <RedesContainer>
             <h3>Redes</h3>
