@@ -12,6 +12,11 @@ export const DevicesBtnMobile = styled.button`
   padding: 10px;
   border: none;
   border-radius: 30px;
+
+  &:hover, &:active {
+    background-color: var(--blue);
+    color: var(--black);
+  }
 `;
 
 //Style of the filter tablet button
@@ -26,6 +31,11 @@ export const DevicesBtnTablet = styled.button`
   padding: 10px;
   border: none;
   border-radius: 30px;
+
+  &:hover, &:active {
+    background-color: var(--blue);
+    color: var(--black);
+  }
 `;
 
 //Style of the filter desktop button
@@ -40,4 +50,9 @@ export const DevicesBtnDesktop = styled.button`
   padding: 10px;
   border: none;
   border-radius: 30px;
+
+  &:hover, &:active {
+    background-color: var(--blue);
+    color: var(--black);
+  }
 `;

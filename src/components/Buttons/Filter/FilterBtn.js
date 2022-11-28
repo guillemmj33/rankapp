@@ -7,11 +7,16 @@ export const FilterBtnPopular = styled.button`
   font-weight: 500;
   text-align: right;
   color: var(--black);
-  background-color: var(--purple);
+  background-color: var(--blue);
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 30px;
+
+  &:hover {
+    background-color: var(--blue);
+    color: var(--black);
+  }
 `;
 
 //Style of the filter medium button
@@ -20,12 +25,17 @@ export const FilterBtnMedium = styled.button`
   font-size: 1rem;
   font-weight: 500;
   text-align: right;
-  color: var(--black);
-  background-color: var(--pink);
+  color: var(--white);
+  background-color: var(--black-2);
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 30px;
+
+  &:hover, &:active {
+    background-color: var(--blue);
+    color: var(--black);
+  }
 `;
 
 //Style of the filter worst button
@@ -34,10 +44,15 @@ export const FilterBtnWorst = styled.button`
   font-size: 1rem;
   font-weight: 500;
   text-align: right;
-  color: var(--black);
-  background-color: var(--blue);
+  color: var(--white);
+  background-color: var(--black-2);
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 30px;
+
+  &:hover, &:active{
+    background-color: var(--blue);
+    color: var(--black);
+  }
 `;
