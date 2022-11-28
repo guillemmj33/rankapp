@@ -1,4 +1,5 @@
-import React from 'react'
+import styled from 'styled-components'
+
 
 export const Redes = styled.div`
 background: #313131;

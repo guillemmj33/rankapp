@@ -1,26 +1,20 @@
-import React from 'react'
-import Redes from './RedesStyle'
+import React from 'react';
+import Redes from './RedesStyle';
+import { BsFacebook, BsInstagram, BsTwitter, BsReddit } from "react-icons";
+import {Link} from 'react-router-dom';
 
-const RedesArq = () =>{
+const RedesArq = () => {
   return (
-      <div>
-          <>
-          <h1>Nuestras Redes Sociales </h1>
-          </>
-              <>
-                  <h2>Facebook</h2>
-              </>
-              <>
-                  <h2>Instagram</h2>
-              </>
-              <>
-                  <h2>Twitter</h2>
-              </>
-              <>
-                  <h2>Reddit</h2>
-              </>
-      </div>
-  )
+    <><BsFacebook>
+          <a href='https://facebook.com/'></a>
+      </BsFacebook><BsInstagram>
+              <a href='https://instagram.com/'></a>
+          </BsInstagram><BsTwitter>
+              <a href='https://twitter.com/'></a>
+          </BsTwitter><BsReddit>
+              <a href='https://reddit.com/'></a>
+          </BsReddit></>
+  );
 }
 
 export default RedesArq
