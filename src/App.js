@@ -1,5 +1,4 @@
-import "./App.css";
-import "./global.scss";
+
 import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Searchbar from "./components/SearchBar/Searchbar";
@@ -10,6 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Searchbar />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           {/* <Route path='/login' element={<Login />}></Route> */}

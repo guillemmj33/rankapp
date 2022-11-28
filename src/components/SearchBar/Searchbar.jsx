@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ResultContainer} from "./ResultContainer"
 import data from "../../data/data";
+import { SearchBarStyle } from "./Search_style";
 
 export default function Searchbar() {
   const [query, setQuery] = useState("");
@@ -18,8 +19,10 @@ export default function Searchbar() {
   }, [query]);
 
   return (
-    <div className="App">
+    <div>
+      <SearchBarStyle>
       <ResultContainer suggestions={suggestions} onChange={(val) => setQuery(val)} />
+      </SearchBarStyle>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import {SearchStyle} from "./Search_style";
 
 export const ResultContainer = ({ onChange, suggestions }) => {
   const [q, setQ] = useState("");
@@ -42,8 +43,8 @@ export const ResultContainer = ({ onChange, suggestions }) => {
   };
 
   return (
-    <div onKeyUp={handleKeyUp}>
-      <input placeholder="search app" value={q} onChange={handleChange} />
+    <div onKeyUp={handleKeyUp}>      
+      <SearchStyle placeholder="search app" value={q} onChange={handleChange} />
       {q && (
         <div ref={boxRef} active={active}>
           {suggestions.map((item, i) => (
