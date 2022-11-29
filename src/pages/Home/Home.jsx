@@ -1,12 +1,20 @@
 import React from 'react';
 import { FilterBtnPopular, FilterBtnMedium, FilterBtnWorst } from '../../components/Buttons/Filter/FilterBtn';
 import { DevicesBtnMobile, DevicesBtnTablet, DevicesBtnDesktop } from '../../components/Buttons/Devices/DevicesBtn';
-import { useState, useEffect } from 'react';
-import data from '../../data/data.json';
-import imatge from '../../assets/Logos/adidas.jpg'
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import dataAPI from '../../data/dataAPI.json';
+import { orderData } from '../../functions/functions';
 
 const Home = () => {
+  const data = dataAPI.data;
 
+  const [dataAPIOrder, setdataAPIOrder] = useState(null);
+
+  useEffect(() => {
+    orderData(setdataAPIOrder);
+  }, [])
+  
   return (
     <main className="container">
       {/* aquí va la search bar de mario */}
@@ -24,14 +32,23 @@ const Home = () => {
       </section>
       <div id="data" className="data">
        {
-        data.map( element => {
+        data.map(element => {
           return (
-            <div className="popularFilter">
-              <h3>{element.id}</h3>
-              <img src={element.image} alt={element.name} />
-              <h3>{element.name}</h3>
-              <h4>{element.rating}</h4>
-              <p>{element.description}</p>
+            <div className="data__card" key={dataAPI.id}>
+              <img src={element.app_icon} width="50" height="50" alt={element.app_name} />
+              <div className="data__info">
+                <h4>{element.app_name}</h4>
+                <div className="data__rating">
+                  <h5>
+                    <i class="fa-solid fa-star"></i>
+                    {element.rating}
+                  </h5>
+                  <h6>{element.app_category}</h6>
+                </div>
+              </div>
+              <div className="data__btn">
+                <a href={element.app_page_link} target="_blank" rel="noreferrer"><button>Download</button></a>
+              </div>
             </div>
           )
         })
