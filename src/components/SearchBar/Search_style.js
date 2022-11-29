@@ -18,11 +18,13 @@ border:0;
 margin-top: 1%;
 width:500px;
 color:white;
+padding: 7px;
 
 &:focus{
     border:1.5px solid var(--blue);
     outline: none;
     background: black;
+    transition: all 0.1s ease-out;
 }
 
 @media screen and (max-width: 1000px){

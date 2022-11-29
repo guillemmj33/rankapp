@@ -44,7 +44,7 @@ export const ResultContainer = ({ onChange, suggestions }) => {
 
   return (
     <div onKeyUp={handleKeyUp}>      
-      <SearchStyle placeholder="search app" value={q} onChange={handleChange} />
+      <SearchStyle placeholder="Search app" value={q} onChange={handleChange} />
       {q && (
         <div ref={boxRef} active={active}>
           {suggestions.map((item, i) => (
