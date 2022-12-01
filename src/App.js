@@ -7,6 +7,7 @@ import Addapp from './components/AddApp/Addapp.jsx';
 import Trending from './components/Trending/Trending';
 import MediasDesktop from './components/Medias/MediasDesktop';
 
+import Navbar from './components/Navbar/Navbar.jsx';
 
 import { 
   BrowserRouter as Router, 
@@ -24,7 +25,8 @@ function App() {
         <Trending/>
         
         <Routes>
-            <Route path='/' element={<Home />}></Route>
+            <Route path='/login' element={<Login />}></Route>
+            <Route path='/home' element={<Home />}></Route>
             <Route path='/search' element={<Search />}></Route>
         </Routes>
       </Router>
