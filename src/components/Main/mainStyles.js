@@ -54,8 +54,8 @@ gap:140px;
 height: 30px;
 border: none;
 border-radius: 10px;
-${props=> props.like== true ? "background-color:blue;" : null }
-  ${props=> props.disLike== true  ? "background-color:red;" : null }
+background:${props=> props.like&& true ? "background-color:blue;" : null }
+${props=> props.disLike&& true  ? "background-color:red;" : null }
 }
 `
 export const WhiteTexto = styled.p`

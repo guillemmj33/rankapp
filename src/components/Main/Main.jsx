@@ -7,26 +7,23 @@ import {BsStarFill} from 'react-icons/bs'
 import { ContainerP, ContainerI, Title, ContainerButton,WhiteTexto,ContainerM,Texte, Form,ButtonSend,ContainerContador } from "./mainStyles";
 
 const Main = () => {
-
-  const [like,setLike] = useState(null)
-  const [disLike,setDisLike] = useState(null)
-  function voto (voto){
-    if(voto && "like"){
-      setLike(true);
-      setDisLike(false);
-      console.log("like")
-      return(like)
-    }
-    if(voto && "dislike"){
-      console.log("dislike")
-      setLike(false);
-        setDisLike(true);
-        return(disLike)
-    }
-
-  }
-  return (
-    <ContainerP>
+    const [like,setLike] = useState(null)
+    const [disLike,setDisLike] = useState(null)
+    function voto (voto){
+        if(voto && "like"){
+            setLike(true);
+            setDisLike(false);
+            console.log("like")
+          }
+          if(voto && "dislike"){
+              console.log("dislike")
+              setLike(false);
+              setDisLike(true);
+            }
+          
+        }
+        return (
+          <ContainerP>
       <ContainerI>
         <div>
           <img src={zoom} alt="imagen" />
