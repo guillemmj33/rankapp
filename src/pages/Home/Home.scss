@@ -55,8 +55,11 @@ main {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
         order: 2;
-        flex-grow: 3;
+        flex-grow: 2;
 
         h4 {
           font-size: 0.8rem;
