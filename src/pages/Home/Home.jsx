@@ -4,6 +4,8 @@ import { DevicesBtnMobile, DevicesBtnTablet, DevicesBtnDesktop } from '../../com
 import { useState } from 'react';
 import ReactPaginate from 'react-paginate';
 import dataAPI from '../../data/dataAPI.json';
+import SearchBar from '../../components/SearchBar/Searchbar';
+import logoTablet from '../../assets/Images/logo-tablet.png';
 
 const Home = () => {
   const data = dataAPI.data;
@@ -115,7 +117,8 @@ const Home = () => {
 
   return (
     <main className="container">
-      {/* aquí va la search bar de mario */}
+      <img className="logoTablet" src={logoTablet} alt="logo tablet" />
+      <SearchBar></SearchBar>
       <section className="homeBtn">
         <div className="filterBtn">
           <FilterBtnPopular onClick={filterPopularApps}><i className="fa-regular fa-face-laugh fa-lg"></i>Populares</FilterBtnPopular>

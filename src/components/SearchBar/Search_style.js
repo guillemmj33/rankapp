@@ -1,42 +1,37 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const SearchBarStyle= styled.div`
-/* background: var(--purple); */
-width: 100%;
-display: flex;
-justify-content: center;
-background-color: transparent;
-position: absolute;
-color:white;
-z-index: 1;
+    width: 100%;
+    margin: 5px 0 15px 0;
 `;
 
 export const SearchStyle= styled.input`
-background:var(--black-2);
-border-radius: 9px;
-border:0;
-margin-top: 1%;
-width:500px;
-color:white;
-padding: 7px;
+    background:var(--black-2);
+    font-family: var(--font-text);
+    font-size: 1rem;
+    border-radius: 50px;
+    border: none;
+    margin-top: 7px;
+    width: 100%;
+    color: var(--white);
+    padding: 5px;
 
-&:focus{
-    border:1.5px solid var(--blue);
-    outline: none;
-    background: black;
-    transition: all 0.1s ease-out;
-}
+    //para modificar el placeholder mario! :) 
+    ::placeholder {
+        padding-left: 10px;
+    }
 
-@media screen and (max-width: 1000px){
-    width: 400px;
-}
+    ::text {
+        padding-left: 10px;
+    }
 
-@media screen and (max-width: 900px){
-    width: 300px;
-}
+    &:focus{
+        border: 1px solid var(--blue);
+        outline: none;
+        background: var(--black-1);
+        transition: all 0.1s ease-out;
 
-@media screen and (max-width: 730px){
-    width: 200px;
-}
+
+    }
 
 `;

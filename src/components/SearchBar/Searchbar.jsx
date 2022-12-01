@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ResultContainer} from "./ResultContainer"
-import data from "../../data/data";
+import dataAPI from "../../data/dataAPI.json";
 import { SearchBarStyle } from "./Search_style";
 
 export default function Searchbar() {
@@ -8,12 +8,14 @@ export default function Searchbar() {
   const [suggestions, setSuggestions] = useState([]);
 
   useEffect(() => {
+    //creamos una variable llamada 'data' para acceder a los objetos del array
+    let data = dataAPI.data;
     if (query !== "") {
       const out = data
         .filter((item) =>
-          item.name.toLowerCase().indexOf(query) !== -1 ? true : false
+          item.app_name.toLowerCase().indexOf(query) !== -1 ? true : false
         )
-        .map((item) => item.name);
+        .map((item) => item.app_name);
       setSuggestions(out);
     }
   }, [query]);

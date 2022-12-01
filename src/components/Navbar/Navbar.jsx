@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { NavContainer, MediaContainer, RankingContainer, PlusContainer } from './NavbarStyle';
 import { FaUserFriends, FaPlus, FaTrophy } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import Logo from './Logo.jsx';
 import Medias from '../Medias/Medias';
 
 
@@ -10,7 +9,6 @@ const Navbar = () => {
     const [stateMedia, openMedia] = useState(false);
   return (
     <>
-    <Logo></Logo>
     <NavContainer>
       <MediaContainer>
         <div onClick= {() => openMedia(!stateMedia)}type="button">
