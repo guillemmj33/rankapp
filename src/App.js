@@ -3,8 +3,9 @@ import './global.scss';
 import Home from './pages/Home/Home';
 import Search from './pages/Search/Search';
 import Info from './pages/Info/Info';
-import Navbar from './components/Navbar/Navbar';
-import Searchbar from './components/SearchBar/Searchbar';
+import Navbar from './components/Navbar/Navbar.jsx';
+import Trending from './components/Trending/Trending';
+import MediasDesktop from './components/Medias/MediasDesktop';
 
 import { 
   BrowserRouter as Router, 
@@ -16,8 +17,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Searchbar />
-        <Navbar />
+        <MediasDesktop></MediasDesktop>
+        <Navbar/>
+        <Trending/>
+        
         <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/search' element={<Search />}></Route>

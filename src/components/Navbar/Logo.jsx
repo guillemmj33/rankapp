@@ -1,5 +1,5 @@
 import React from 'react';
-import { LogoContainer, LetraLogo, CirculoLogo } from './Logo';
+import {LogoContainer} from './LogoStyle';
 
 const Logo = () => {
 return (
