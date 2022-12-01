@@ -1,21 +1,28 @@
-import React from 'react';
-import {NavContainer, RedesContainer,RankingContainer, PlusContainer} from './Navbar';
+import React, {useState} from 'react';
+import {NavContainer, MediaContainer,RankingContainer, PlusContainer} from './NavbarStyle';
 import { FaUserFriends, FaPlus, FaTrophy } from "react-icons/fa";
 import {Link} from 'react-router-dom';
 import Logo from './Logo.jsx';
+import Medias from '../Medias/Medias';
 
 
 const Navbar = () => {
+    const [stateMedia, openMedia] = useState(false);
   return (
     <>
     <Logo></Logo>
     <NavContainer>
-      <RedesContainer>
-        <h3>Redes</h3>
-        <FaUserFriends>
-        <Link to=''></Link>
-        </FaUserFriends>
-      </RedesContainer>
+      <MediaContainer>
+        <div onClick= {() => openMedia(!stateMedia)}type="button">
+          <Medias
+          state = {stateMedia}>
+          </Medias>
+          <h3>Redes</h3>
+          <FaUserFriends>
+          <Link to=''></Link>
+          </FaUserFriends>
+        </div>
+      </MediaContainer>
       <RankingContainer>
           <h3>Ranking</h3>
           <FaTrophy>

@@ -3,6 +3,9 @@ import './global.scss';
 import Home from './pages/Home/Home';
 import Search from './pages/Search/Search';
 import Navbar from './components/Navbar/Navbar.jsx';
+import Addapp from './components/AddApp/Addapp.jsx';
+import Trending from './components/Trending/Trending';
+import MediasDesktop from './components/Medias/MediasDesktop';
 
 
 import { 
@@ -15,7 +18,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <MediasDesktop></MediasDesktop>
+        <Navbar/>
+        <Addapp/>
+        <Trending/>
+        
         <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/search' element={<Search />}></Route>
