@@ -49,7 +49,22 @@ const Home = () => {
     };
 
     /******************** FILTERS ********************/
-    
+    const asignDevice = () => {
+      for (let i = 0; i < data.length; i++) {
+        let randomDevice = Math.round(Math.random() * 2);
+        if (randomDevice === 2) {
+          data[i].device = "mobile";
+        } else if (randomDevice === 1) {
+          data[i].device = "tablet";
+        } else {
+          data[i].device = "desktop";
+        }
+        console.log(randomDevice);
+      }
+      console.log(data);
+    }
+    asignDevice();
+
     /******************** POPULAR ********************/
     const filterPopularApps = () => {
       const result = data.filter((element) => {
@@ -85,7 +100,7 @@ const Home = () => {
     /******************** TABLET APP ********************/
     const filterTabletApp = () => {
       const result = data.filter((element) => {
-        return element.device = "tablet";
+        return element.device === "tablet";
       });
       setApps(result);
     }
@@ -93,7 +108,7 @@ const Home = () => {
     /******************** DESKTOP APP ********************/
     const filterDesktopApp = () => {
       const result = data.filter((element) => {
-        return element.device = "desktop";
+        return element.device === "desktop";
       });
       setApps(result);
     }
