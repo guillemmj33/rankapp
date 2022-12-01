@@ -6,8 +6,8 @@ export const FilterBtnPopular = styled.button`
   font-size: 1rem;
   font-weight: 500;
   text-align: right;
-  color: var(--black);
-  background-color: var(--blue);
+  color: var(--white);
+  background-color: var(--black-2);
   width: 100%;
   padding: 10px;
   border: none;

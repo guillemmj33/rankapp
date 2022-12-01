@@ -13,6 +13,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 3,
       "photos": [
         "https://play-lh.googleusercontent.com/ICGuTSmJNNFEZ6sgFHVwybj89V2d2g661q5_ercCpmpKMtmME_O3wmOonq26SU-gsss",
@@ -86,6 +87,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/OH0gsJmVTzHSaMGfl6YaBbrwinFoskKZtlSomg2MaZgAK7iEls-HIw1f-c3dM6F4Po0v",
@@ -159,6 +161,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 3,
       "photos": [
         "https://play-lh.googleusercontent.com/s_nOG7AZIQL4hQWMuRmSxl_0hMtyPPbMvOCWwjU_FogQt9Q5vI2jXiOXNsTSPCxYQBU",
@@ -229,6 +232,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/RozhZ5i6W85VqEINeN0ysMIuRUJgHGENDCUQRtBAS-_-AtQhkKGu7nO-VQvUU3bruWc",
@@ -284,6 +288,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/U-z70gXwLrck871Ck97bWULZTtVi3zy33NyCLy7hPlhQEFmG0nvJoV1vMoWP8LFYTq14",
@@ -341,6 +346,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/nPr_CX2NjVv-vMj52XibUbBR1tv7CFdoJd96gGx5ZwbHGN1NZQ2mLw_f3NEq36etHlA",
@@ -402,6 +408,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 3,
       "photos": [
         "https://play-lh.googleusercontent.com/00JAm8ZK-vGrZDA1zi6ucxjeEdCSNE--eFV-O8YwE2Nmu6h23xiRak1FeZDBwzFCnQM",
@@ -456,6 +463,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/tNuMAclO_TrRn5RbiSo2iU2ySljFaHjCIWoMUSoemUcl4FjTyVO0PpJZL_zTrYf7v_4",
@@ -510,6 +518,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/ZTOJFD1VmCbwmNUHgbPKH7jt9aWVfcJLd2OD_gyqv4PJotY0C9jnW-LyxrxvgkSfde4",
@@ -567,6 +576,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/JdZK-1ekJU-YhEgdrUthKbid4C9ICWCYedAopIGoMrfT81ogiAv72nNb-inwIdOUHaI",
@@ -640,6 +650,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/n2nRvaxu4scNYLCj91QwAQEH-brlqTiiDCqaYhIuIKCKzeSmIknYLG_aLCBjoi3XyNYJ",
@@ -710,6 +721,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/Bt95BAHb_F8Wdn_Xt1z7sBjUXAD-UIYX_mqAhhRFIv5PobR3vpteXfzNC0ZYiVJPSgM",
@@ -766,6 +778,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/B906C0d4dhI0D3wMJvWI-eG_AtUh02gB9OOTd6CItRSB70sr04TI_9hmonsnNbcO2Uo",
@@ -822,6 +835,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/xKCYMMuIshGmxLVckXnGYsdorvBxF0oI58Yt82Vkj_cn3Dby52gdrt4Lmr7BTYiVww",
@@ -879,6 +893,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "mobile",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/QtqZN1RilBodKUj3Wd_vpuDzy-PkwVk7Vv6wSQN_mFZew5iz9k1a53rpxLNR6uNNsC0",
@@ -936,6 +951,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/ZyqPzFo0iZbulbbGMG-8tt3TEEOXQQdv2duvbqKVBu6xKXOOdcm3GrXuGU6Q3spAHN_V",
@@ -1009,6 +1025,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/Z91wq4GJRZiS8OVxSlq6yIa7U7r_YH65FVOOZUv7wHCe1ufiXOlIiv7Yx87_y5k9grOz",
@@ -1062,6 +1079,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/m7mg_DZ1uTb6jfGewOOtZ4ejmDaBYfEWZVfEP0pkSX60OsoG7YDgjuFLPCCc6rBnYJk",
@@ -1135,6 +1153,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/HJ9nrtnZWybYzvym2MIIyt9Oqu_iUyDItWZCUHepzrwAb9iCwGenDWB5JM96mmZMhRc",
@@ -1200,6 +1219,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/eNHuTzAjfYxGjo22mH7f_UPWqP8_9xFd7PAv4H0z6zsWfFzYt57h6YPbyoUmKeFymB0",
@@ -1255,6 +1275,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/HaqJ47Y9GPfWJhOzlSwoWHXnd7QVCpm05kPlzYD0koOSFLOW8tPxGiXAjAPLP69hpYfS",
@@ -1312,6 +1333,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 3,
       "photos": [
         "https://play-lh.googleusercontent.com/kFbuS8Vb2SVbLiZVtMqZiS0qBOjkjMp_1uYbYmWmX-BOw6FceeGh35cAeUWIbZVo728",
@@ -1385,6 +1407,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/30O6dv9uyttYHD6D9PITGF-75E63-7WGwLwBv4Zu5xM_S0a5v5F43ySganRn7r4GQNWg",
@@ -1440,6 +1463,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/_4R1YWIIuj_OmpD6JYtfNxlawwXLJbeZVd0G_5Cb-2aW3tecPjx9LhT0ZJI2liJojqE",
@@ -1510,6 +1534,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 3,
       "photos": [
         "https://play-lh.googleusercontent.com/buGpC6LJ0jwYJqpK4ytBl2Yvv8nql7dZ2FFiqUSbmJiGSL_qdVl7SHD25m4hWFBT_j-4",
@@ -1580,6 +1605,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/wlwY1vowGxTrvQMRDHJD21iYBG7S_E09QbKPY-L6dqEc4UxCi0fDQiNuCBonFYED1yU",
@@ -1637,6 +1663,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 2,
       "photos": [
         "https://play-lh.googleusercontent.com/oxW7SQFaNJk2f-QPuHDEnpFLFl_soIhXkofhLwm5FJvQguxJBdrswImNiLIfczv08DXP",
@@ -1714,6 +1741,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 3,
       "photos": [
         "https://play-lh.googleusercontent.com/LMRMT7k4wJ0BmsAm7GE1_z-_nf6YRGLzwFMWOfAJC8Kc4P6i7jcrYI3PVLuHIBGAnuvG",
@@ -1787,6 +1815,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/ygu-OxyNe3M9LYr7MLgMgZS36J0fwHNefhDr9dB9-0p45JxwaV3833qEzVhhg_bQoCY",
@@ -1854,6 +1883,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "tablet",
       "rating": 3,
       "photos": [
         "https://play-lh.googleusercontent.com/_sKrulHgWUngPxvR5l41ZHJooqmeEihVE2gvgD0prWa5DI52wAJxSTgTvK6PYZepP8o",
@@ -1912,6 +1942,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/W6FhpcJ5X7CdGhpBQTnZQpl7SdqWnRcJWh5hrgGbYLgAxmh6CNlNS6rAtz-z4lJ6rtBb",
@@ -1975,6 +2006,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/uj5ZU0N0PTmsImsMAwLpXXE1aO55hNP6qLVC05_Vyp9nan1uCHSWzWQRDTy2zecpBg",
@@ -2044,6 +2076,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/GTM5aoM_G-ThYAbxhhFzfKNjc1ZuEUdON5m1_-ho2elHo2-hL8htrGmRHz5wIbXUnb4",
@@ -2116,6 +2149,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/DcvmplL7t-HwOhkd0lUPE5WYfpTomNZQ6nntlF3x6ur6Xhw-uwmWihaWKLJ0KBo6xI3D",
@@ -2173,6 +2207,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/gZh2w_bx1PEHXdvWDxWsehcFvMrQD8F3Vm2OmfzaLtmuA7hGgNB-IJYZc5WiklunevQ",
@@ -2230,6 +2265,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/7DFJ_wBizPF2AJ0-4VXYZBQbKqI9Rw0Yb1NgYcBK-eJVLRyqdhyW-kCQg5h8KrsS5C0",
@@ -2286,6 +2322,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 3,
       "photos": [
         "https://play-lh.googleusercontent.com/VGS00uSW8Mp96Syfhgd3JMMPsvytbkPN_bQeC7342TSnOmT431fpKD48n3QikB3mk79c",
@@ -2339,6 +2376,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/P-0BzvPbLYzXoPS5AnObWyrePFABTNpAqpBnC87cGPncCY_ImcPChV73Jokj8MlZ3g",
@@ -2403,6 +2441,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/L3nC4K38KL4yVhOc9UQ3bf64tKrgRZdAjZ0NYIYKT2BKTebBRaiLWCJeEn18s3lmMA",
@@ -2458,6 +2497,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/sgqEXvq5E3nNo5yW_fl1Dd28BKURQQ092BN7lFEIwkiNZUkM5jT04BrESE67yIv_cQ",
@@ -2531,6 +2571,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/SFXqehg8R3eH9ZP6uOa3Zp0eV9swiOYlQyYttsupfvIP1baLS3g6p4Y_RGKwqty50BY",
@@ -2582,6 +2623,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/Pvj3U2baKDO83USuLa2N10Kxotw5mrn8RTA5uEQAoqPWthc2tGG5GFkFUkVGtPPxer19",
@@ -2637,6 +2679,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 2,
       "photos": [
         "https://play-lh.googleusercontent.com/Bjz1L4K1mrjJFRot7SuEVMjSFPiWNVvoSP7AG7zTefvf524n3S_uAW5Ut0mCmRLcDqc",
@@ -2692,6 +2735,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 3,
       "photos": [
         "https://play-lh.googleusercontent.com/VoGNSqcbxRq-VH4UYrhLa-e_gKHXUXJNeXNeryzca2fOZCX5FIkEZlNKY639oEcbSs8",
@@ -2744,6 +2788,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/85W8SSlu7z62P5uqatGOxdhX8JJJ7c_p11I_982xaPxMptsE9z4QeZr78Ua_E7A8OQ",
@@ -2799,6 +2844,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/cAt1HRjoBawQgaJjoiCFFi2OrncC-diSvRYvNQzH3d3-PoH-h5OuBK_xJc9MeJ6wQ50",
@@ -2854,6 +2900,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 3,
       "photos": [
         "https://play-lh.googleusercontent.com/eVRTOnSGFttN8Bc3Hwn94QZY3v0w2bGb9LFkxNRrUgod4fCJMEQdXG7cVKO1jGiFiA",
@@ -2921,6 +2968,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/TbmqntBZzhX1_JUTj-PHvwYs0MfeMSYSujv5Vnfm4wkB83ody6ql5KiIdzbstImckw",
@@ -2974,6 +3022,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/KR_vFw027ORJgWHp0m-FC0wNC77a5eqURhwXCxubLv0E1n-0qU7LGo7LwDIUQamx3g",
@@ -3038,6 +3087,7 @@
       "price": 0,
       "price_currency": null,
       "is_paid": false,
+      "device": "desktop",
       "rating": 4,
       "photos": [
         "https://play-lh.googleusercontent.com/XkDw68lcMXC7qB6vt7nCK_F_65pbBQqmE9zt7KbZmIkEJmPwYUUAbyxHnFYadk_4vgLW",

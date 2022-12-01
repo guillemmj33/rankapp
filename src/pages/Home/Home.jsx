@@ -1,58 +1,132 @@
 import React from 'react';
 import { FilterBtnPopular, FilterBtnMedium, FilterBtnWorst } from '../../components/Buttons/Filter/FilterBtn';
 import { DevicesBtnMobile, DevicesBtnTablet, DevicesBtnDesktop } from '../../components/Buttons/Devices/DevicesBtn';
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import ReactPaginate from 'react-paginate';
 import dataAPI from '../../data/dataAPI.json';
-import { orderData } from '../../functions/functions';
 
 const Home = () => {
   const data = dataAPI.data;
 
-  const [dataAPIOrder, setdataAPIOrder] = useState(null);
+  /******************** PAGINATION ********************/
+  //hacemos que solo aparezcan 10 apps, de 0 a 10, el 10 no incluido
+  const [apps, setApps] = useState(data.slice(0,50));
+  //creamos paginación
+  const [pageNumber, setPageNumber] = useState(0);
 
-  useEffect(() => {
-    orderData(setdataAPIOrder);
-  }, [])
-  
+  const appsPerPage = 10;
+  const pagesVisited = pageNumber * appsPerPage;
+
+  const displayApps = apps
+    .slice(pagesVisited, pagesVisited + appsPerPage)
+    .map((app) => {
+      return (
+        <div className="data__card">
+          <img src={app.app_icon} width="50" height="50" alt={app.app_name} />
+          <div className="data__info">
+            <h4>{app.app_name}</h4>
+            <div className="data__rating">
+              <h5>
+                <i className="fa-solid fa-star"></i>
+                {app.rating}
+              </h5>
+              <h6>{app.app_category}</h6>
+            </div>
+          </div>
+          <div className="data__btn">
+            <a href={app.app_page_link} target="_blank" rel="noreferrer">
+              <button>Download</button>
+            </a>
+          </div>
+        </div>
+      );
+    });
+
+    const pageCount = Math.ceil(apps.length / appsPerPage);
+
+    const changePage = ( {selected} ) => {
+      setPageNumber(selected);
+    };
+
+    /******************** FILTERS ********************/
+    
+    /******************** POPULAR ********************/
+    const filterPopularApps = () => {
+      const result = data.filter((element) => {
+        return element.chart_rank <= 1;
+      });
+      setApps(result);
+    }
+    
+    /******************** MEDIUM ********************/
+    const filterMediumApps = () => {
+      const result = data.filter((element) => {
+        return element.chart_rank >= 2 && element.chart_rank <= 4;
+      });
+      setApps(result);
+    }
+    
+    /******************** WORST ********************/
+    const filterWorstApps = () => {
+      const result = data.filter((element) => {
+        return element.chart_rank === 5;
+      });
+      setApps(result);
+    }
+    
+    /******************** MOBILE APP ********************/
+    const filterMobileApp = () => {
+      const result = data.filter((element) => {
+        return element.device === "mobile";
+      });
+      setApps(result);
+    }
+    
+    /******************** TABLET APP ********************/
+    const filterTabletApp = () => {
+      const result = data.filter((element) => {
+        return element.device = "tablet";
+      });
+      setApps(result);
+    }
+    
+    /******************** DESKTOP APP ********************/
+    const filterDesktopApp = () => {
+      const result = data.filter((element) => {
+        return element.device = "desktop";
+      });
+      setApps(result);
+    }
+
   return (
     <main className="container">
       {/* aquí va la search bar de mario */}
       <section className="homeBtn">
         <div className="filterBtn">
-          <FilterBtnPopular><i className="fa-regular fa-face-laugh fa-lg"></i>Populares</FilterBtnPopular>
-          <FilterBtnMedium><i className="fa-regular fa-face-meh fa-lg"></i>Intermedias</FilterBtnMedium>
-          <FilterBtnWorst><i className="fa-regular fa-face-frown fa-lg"></i>Peores</FilterBtnWorst>
+          <FilterBtnPopular onClick={filterPopularApps}><i className="fa-regular fa-face-laugh fa-lg"></i>Populares</FilterBtnPopular>
+          <FilterBtnMedium onClick={filterMediumApps}><i className="fa-regular fa-face-meh fa-lg"></i>Intermedias</FilterBtnMedium>
+          <FilterBtnWorst onClick={filterWorstApps}><i className="fa-regular fa-face-frown fa-lg"></i>Peores</FilterBtnWorst>
         </div>
         <div className="devicesBtn">
-          <DevicesBtnMobile><i className="fa-solid fa-mobile-screen-button fa-lg"></i>Móvil</DevicesBtnMobile>
-          <DevicesBtnTablet><i className="fa-solid fa-tablet-screen-button fa-lg"></i>Tablet</DevicesBtnTablet>
-          <DevicesBtnDesktop><i className="fa-solid fa-desktop fa-lg"></i>Escritorio</DevicesBtnDesktop> 
+          <DevicesBtnMobile onClick={filterMobileApp}><i className="fa-solid fa-mobile-screen-button fa-lg"></i>Móvil</DevicesBtnMobile>
+          <DevicesBtnTablet onClick={filterTabletApp}><i className="fa-solid fa-tablet-screen-button fa-lg"></i>Tablet</DevicesBtnTablet>
+          <DevicesBtnDesktop onClick={filterDesktopApp}><i className="fa-solid fa-desktop fa-lg"></i>Escritorio</DevicesBtnDesktop> 
         </div>
       </section>
       <div id="data" className="data">
-       {
-        data.map(element => {
-          return (
-            <div className="data__card" key={dataAPI.id}>
-              <img src={element.app_icon} width="50" height="50" alt={element.app_name} />
-              <div className="data__info">
-                <h4>{element.app_name}</h4>
-                <div className="data__rating">
-                  <h5>
-                    <i class="fa-solid fa-star"></i>
-                    {element.rating}
-                  </h5>
-                  <h6>{element.app_category}</h6>
-                </div>
-              </div>
-              <div className="data__btn">
-                <a href={element.app_page_link} target="_blank" rel="noreferrer"><button>Download</button></a>
-              </div>
-            </div>
-          )
-        })
-       } 
+        {/* aplicamos la función de paginado */}
+        {displayApps}
+        <ReactPaginate
+          previousLabel={'Previous'}
+          nextLabel={'Next'}
+          pageCount={pageCount}
+          onPageChange={changePage}
+          containerClassName={'paginationBtns'}
+          previousLinkClassName={'previousBtn'}
+          nextLinkClassName={'nextBtn'}
+          disabledClassName={'paginationDisabled'}
+          activeClassName={'paginationActive'}
+        />  
       </div>
     </main>
   )
