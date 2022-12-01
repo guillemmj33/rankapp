@@ -1,42 +1,57 @@
 import styled from 'styled-components'
 
-export const SearchBarStyle= styled.div`
+export const SearchContainer=styled.div`
 /* background: var(--purple); */
 width: 100%;
 display: flex;
 justify-content: center;
-background-color: transparent;
-position: absolute;
+height: 11vh;
 color:white;
-z-index: 1;
+margin-bottom:1%;
+margin-top:1%;
+
+
+`
+
+export const SearchBarStyle= styled.div`
+/* background: blue; */
+width:50%;
+overflow: scroll;
+overflow-x: hidden;
+font-size: small;
+
+&::-webkit-scrollbar{
+    height: 1px;
+    width: 8px;
+}
+
+&::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border-radius: 4px;
+}
+
+p{
+    margin-left: 2%;
+    line-height: 40%;
+    margin-top: 1%;
+}
 `;
 
 export const SearchStyle= styled.input`
 background:var(--black-2);
-border-radius: 9px;
+border-radius: 15px;
 border:0;
-margin-top: 1%;
-width:500px;
+width:100%;
 color:white;
 padding: 7px;
+position: sticky;
+top:0;
 
 &:focus{
-    border:1.5px solid var(--blue);
+    border:1px solid var(--blue);
     outline: none;
     background: black;
     transition: all 0.1s ease-out;
-}
-
-@media screen and (max-width: 1000px){
-    width: 400px;
-}
-
-@media screen and (max-width: 900px){
-    width: 300px;
-}
-
-@media screen and (max-width: 730px){
-    width: 200px;
 }
 
 `;

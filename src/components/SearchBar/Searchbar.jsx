@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { ResultContainer} from "./ResultContainer"
-import data from "../../data/data";
-import { SearchBarStyle } from "./Search_style";
+// import data from "../../data/data";
+import { SearchBarStyle,SearchContainer } from "./Search_style";
+import dataAPI from '../../data/dataAPI.json';
 
 export default function Searchbar() {
   const [query, setQuery] = useState("");
@@ -9,20 +10,22 @@ export default function Searchbar() {
 
   useEffect(() => {
     if (query !== "") {
-      const out = data
+      const out = dataAPI.data
         .filter((item) =>
-          item.name.toLowerCase().indexOf(query) !== -1 ? true : false
+          item.app_name.toLowerCase().indexOf(query) !== -1 ? true : false
         )
-        .map((item) => item.name);
+        .map((item) => item.app_name);
       setSuggestions(out);
     }
   }, [query]);
 
   return (
     <div>
+      <SearchContainer>
       <SearchBarStyle>
       <ResultContainer suggestions={suggestions} onChange={(val) => setQuery(val)} />
       </SearchBarStyle>
+      </SearchContainer>
     </div>
   );
 }

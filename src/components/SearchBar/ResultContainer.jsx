@@ -49,7 +49,8 @@ export const ResultContainer = ({ onChange, suggestions }) => {
         <div ref={boxRef} active={active}>
           {suggestions.map((item, i) => (
             <div onMouseOver={() => setActive(i + 1)} key={item}>
-              {item}
+              <p>{item}</p>
+              {/* Poner el item dentro de algo linkeable que conecte por ejemplo, con el id*/}
             </div>
           ))}
         </div>
