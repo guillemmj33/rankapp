@@ -30,8 +30,6 @@ export const SearchStyle= styled.input`
         outline: none;
         background: var(--black-1);
         transition: all 0.1s ease-out;
-
-
     }
 
 `;

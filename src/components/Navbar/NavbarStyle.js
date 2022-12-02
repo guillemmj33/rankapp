@@ -96,7 +96,7 @@ export const PlusContainer = styled.div`
     height: 100%;
     display: flex;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
 			width: 50%;
 			height: 45%;
 			display: flex;
@@ -115,4 +115,12 @@ export const PlusContainer = styled.div`
 				font-size: 15px; 
 			}
     }
+
+		@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+		}
+
+		@media screen and (min-width: 1440px) {
+			
+		}
 `;
