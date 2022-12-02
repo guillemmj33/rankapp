@@ -169,9 +169,35 @@ main {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
-    max-width: 596px;
+    max-width: 720px;
+    padding-left: 100px;
 
     .data {
+      margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: 20px;
+      background-color: var(--black-2);
+      border-radius: 15px;
+      padding: 20px;
+      
+      .data__card {
+        display: flex;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(40, 40, 40);
+        flex-direction: row;
+        gap: 15px;
+  
+        img {
+          border-radius: 10px;
+          width: 70px;
+          height: auto;
+          order: 1;
+        }
+      }
+
       .paginationBtns {
         margin-bottom: 40px;
       }

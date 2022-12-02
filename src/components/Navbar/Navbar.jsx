@@ -6,36 +6,37 @@ import Medias from '../Medias/Medias';
 
 
 const Navbar = () => {
-    const [stateMedia, openMedia] = useState(false);
+  const [stateMedia, openMedia] = useState(false);
+
   return (
     <>
-    <NavContainer>
-      <MediaContainer>
-        <div onClick= {() => openMedia(!stateMedia)}type="button">
-          <Medias
-          state = {stateMedia}>
-          </Medias>
-          <h3>Redes</h3>
-          <FaUserFriends>
-          <Link to=''></Link>
-          </FaUserFriends>
-        </div>
-      </MediaContainer>
-      <RankingContainer>
-          <span className="dot-ranking"></span>
-          <h3>Ranking</h3>
-          <FaTrophy>
+      <NavContainer>
+        <MediaContainer>
+          <div onClick= {() => openMedia(!stateMedia)}type="button">
+            <Medias
+            state = {stateMedia}>
+            </Medias>
+            <h3>Redes</h3>
+            <FaUserFriends>
             <Link to=''></Link>
-          </FaTrophy>
-      </RankingContainer>
-      <PlusContainer>
-          <span className="dot-plus"></span>
-          <h3>Add App</h3>
-          <FaPlus>
-            <Link to=''></Link>
-          </FaPlus>
-      </PlusContainer>
-    </NavContainer>
+            </FaUserFriends>
+          </div>
+        </MediaContainer>
+        <RankingContainer>
+            <span className="dot-ranking"></span>
+            <h3>Ranking</h3>
+            <FaTrophy>
+              <Link to=''></Link>
+            </FaTrophy>
+        </RankingContainer>
+        <PlusContainer>
+            <span className="dot-plus"></span>
+            <h3>Add App</h3>
+            <FaPlus>
+              <Link to=''></Link>
+            </FaPlus>
+        </PlusContainer>
+      </NavContainer>
     </>
   )
 };

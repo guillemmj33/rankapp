@@ -82,10 +82,10 @@ export const RankingContainer = styled.div`
 		@media screen and (min-width: 375px) and (max-width: 424px) {
 			.dot-ranking {
 				position: absolute;
-				left: 156px;
-				top: 7px; 
-				height: 45px;
-				width: 58px;
+				left: 155px;
+				top: 6px; 
+				height: 47px;
+				width: 60px;
 				background-color: var(--blue);
 				border-radius: 50%;
 				display: inline-block;
@@ -100,10 +100,10 @@ export const RankingContainer = styled.div`
 		@media screen and (min-width: 425px) and (max-width: 767px) {
 			.dot-ranking {
 				position: absolute;
-				left: 181px;
-				top: 7px; 
-				height: 45px;
-				width: 58px;
+				left: 178px;
+				top: 6px; 
+				height: 48px;
+				width: 63px;
 				background-color: var(--blue);
 				border-radius: 50%;
 				display: inline-block;
