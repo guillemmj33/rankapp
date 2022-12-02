@@ -22,16 +22,18 @@ const Navbar = () => {
         </div>
       </MediaContainer>
       <RankingContainer>
+          <span className="dot-ranking"></span>
           <h3>Ranking</h3>
           <FaTrophy>
             <Link to=''></Link>
           </FaTrophy>
       </RankingContainer>
       <PlusContainer>
+          <span className="dot-plus"></span>
           <h3>Add App</h3>
           <FaPlus>
             <Link to=''></Link>
-            </FaPlus>
+          </FaPlus>
       </PlusContainer>
     </NavContainer>
     </>

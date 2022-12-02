@@ -10,19 +10,19 @@ export const NavContainer = styled.div`
     flex-direction: row;
 
     svg {
-        width: 30%;
-        height: 30px;
-        font-size: 40px;
-        margin: auto;
-        color: var(--blue);
-        cursor: pointer;
+			width: 30%;
+			height: 30px;
+			font-size: 40px;
+			margin: auto;
+			color: var(--blue);
+			cursor: pointer;
     }
 
     h3 {
-        display: none;
+			display: none;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
 			width: 35%;
 			height: 20%;
 			display: flex;
@@ -32,8 +32,7 @@ export const NavContainer = styled.div`
 			top: 135px;
 
 			svg {
-					width: 30%;
-					margin: 10px;
+				width: 30%;
 			}
 
 			h3 {
@@ -52,7 +51,7 @@ export const MediaContainer = styled.div`
 			display: flex;
     }
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
 			display: none;
     }
 `;    
@@ -61,28 +60,73 @@ export const RankingContainer = styled.div`
     width: 33%;
     height: 100%;
     display: flex;
-    background-color: var(--blue);
-    border-radius: 100%;
 
-    svg {
-			color: black;
-    }
+		@media screen and (min-width: 320px) and (max-width: 374px) {
+			.dot-ranking {
+				position: absolute;
+				left: 132px;
+				top: 7px; 
+				height: 45px;
+				width: 58px;
+				background-color: var(--blue);
+				border-radius: 50%;
+				display: inline-block;
+			}
+	
+			svg {
+				color: var(--black-1);
+				z-index: 1;
+			}
+		}
 
-    @media screen and (min-width: 768px){
-			width: 50%;
+		@media screen and (min-width: 375px) and (max-width: 424px) {
+			.dot-ranking {
+				position: absolute;
+				left: 156px;
+				top: 7px; 
+				height: 45px;
+				width: 58px;
+				background-color: var(--blue);
+				border-radius: 50%;
+				display: inline-block;
+			}
+	
+			svg {
+				color: var(--black-1);
+				z-index: 1;
+			}
+		}
+
+		@media screen and (min-width: 425px) and (max-width: 767px) {
+			.dot-ranking {
+				position: absolute;
+				left: 181px;
+				top: 7px; 
+				height: 45px;
+				width: 58px;
+				background-color: var(--blue);
+				border-radius: 50%;
+				display: inline-block;
+			}
+	
+			svg {
+				color: var(--black-1);
+				z-index: 1;
+			}
+		}
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
 			height: 50%;
-			display: flex;
 			background-color: transparent;
-			justify-content: center;
-			flex-direction: row-reverse;
-			border-radius: 50px;
-			margin: 0.5em 0.5em;
-			align-items: center;
 			
 			svg {
 				color: var(--white);
-				width: 40%;
-        margin: auto;
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: -27px;
+				top: -50px;
+				margin-left: 32px;
 			}
 
 			h3 {
@@ -97,18 +141,25 @@ export const PlusContainer = styled.div`
     display: flex;
 
     @media screen and (min-width: 768px) and (max-width: 1023px) {
-			width: 50%;
-			height: 45%;
-			display: flex;
-			flex-direction: row-reverse;
-			margin-left: 0.5em;
-			border-radius: 50px;
-			svg {
+			.dot-plus {
+				position: absolute;
+				left: 30px;
+				top: 8px; 
+				height: 35px;
+				width: 37px;
 				background-color: var(--blue);
-				width: 30%;
-				height: 70%;
-				border-radius: 5em;
-				color: black;   
+				border-radius: 50%;
+				display: inline-block;
+			}
+
+			svg {
+				color: var(--black);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: 4px;
+				top: 10px;  
+				cursor: pointer;
 			}
 
 			h3 {
