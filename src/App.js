@@ -7,7 +7,6 @@ import Addapp from './components/AddApp/Addapp.jsx';
 import Trending from './components/Trending/Trending';
 import MediasDesktop from './components/Medias/MediasDesktop';
 
-import Navbar from './components/Navbar/Navbar.jsx';
 
 import { 
   BrowserRouter as Router, 
