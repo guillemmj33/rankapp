@@ -2,8 +2,11 @@ import './App.css';
 import './global.scss';
 import Home from './pages/Home/Home';
 import Search from './pages/Search/Search';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
+import Info from './pages/Info/Info';
+import Navbar from './components/Navbar/Navbar.jsx';
+import Trending from './components/Trending/Trending';
+import MediasDesktop from './components/Medias/MediasDesktop';
+
 import { 
   BrowserRouter as Router, 
   Routes, 
@@ -14,12 +17,16 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <MediasDesktop></MediasDesktop>
+        <Navbar/>
+        <Trending/>
+
         <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/search' element={<Search />}></Route>
+            <Route path='/info:id' element={<Info />}></Route>
         </Routes>
-        <Footer />
+        
       </Router>
     </div>
   );
