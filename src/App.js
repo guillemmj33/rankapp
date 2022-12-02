@@ -1,9 +1,8 @@
+import React from 'react';
 import './App.css';
-import './global.scss';
 import Home from './pages/Home/Home';
 import Search from './pages/Search/Search';
-
-import Navbar from './components/Navbar/Navbar.jsx';
+import Redes from './components/redes/RedesArq'
 
 import { 
   BrowserRouter as Router, 
@@ -18,7 +17,6 @@ function App() {
       <Router>
       <Redes />
         <Routes>
-            <Route path='/login' element={<Login />}></Route>
             <Route path='/home' element={<Home />}></Route>
             <Route path='/search' element={<Search />}></Route>
         </Routes>

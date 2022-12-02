@@ -1,7 +1,7 @@
 import React from 'react';
 import { FilterBtnPopular, FilterBtnMedium, FilterBtnWorst } from '../../components/Buttons/Filter/FilterBtn';
 import { DevicesBtnMobile, DevicesBtnTablet, DevicesBtnDesktop } from '../../components/Buttons/Devices/DevicesBtn';
-import { NavContainer, RedesContainer,RankingContainer, PlusContainer } from '../../components/Navbar/Navbar';
+import { NavContainer, RedesContainer,RankingContainer, PlusContainer } from '../../components/Navbar/NavbarStyle';
 import { FaUserFriends, FaPlus, FaTrophy } from "react-icons/fa";
 
 const Home = () => {
