@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 export const ContainerP = styled.div`
-background-color: 404040;
+background-color: #000000;
 margin: 0;
 padding: 0;
 display: flex;
@@ -18,7 +18,7 @@ height: 100%;
 `
 export const ContainerI = styled.div`
 display:flex;
-background:#BDBDBD;
+background: #313131;
 width: 60%;
 align-items: center;
 text-align: center;
@@ -30,7 +30,7 @@ margin-top: 40px;
 export const Title = styled.div`
     color: white;
     font-size: 64px;
-    background-color: 313131;
+    background-color:#313131;
     border-radius: 10px;
     margin-top: 40px;
     padding: 3px 90px;
@@ -39,7 +39,7 @@ export const Title = styled.div`
     transition: all .3s ease;
     
     &:hover{
-      background:#24E0FA;
+      background:#313131;
     }
 `
 
@@ -49,9 +49,9 @@ justify-content: space-between;
 align-items: center;
 gap:140px;
 >button{
-  width: 60px;
-
-height: 30px;
+  width: 70px;
+background-color:#24E0FA;
+height: 40px;
 border: none;
 border-radius: 10px;
 background:${props=> props.like&& true ? "background-color:blue;" : null }
@@ -63,40 +63,41 @@ color: white;
 text-align: center;
 font-size: 2rem;
 padding: 10px 20px;
-background-color: #BDBDBD;
+background-color:#313131;
 width: 80%;
 margin-top: 10px;
 border-radius: 15px;
-cursor: pointer;
-    transition: all .3s ease;
-    
-    &:hover{
-      background:#24E0FA;
-    }
 `
 export const ContainerM = styled.div`
-background: #BDBDBD;
+background: #313131;
 border-radius: 10px;
 padding: 10px 20px;
-width: 80%;
+width: 100%;
 margin-top: 20px;
 >div{
   display: flex;
   justify-content: space-between;
-  >h2{
+  >h1{
     border-radius: 10px;
       background: #24E0FA;
-      padding: 10px;
+      padding: 20px;
+      color:white;
   }
   >p{
-    background:white;
-    border-radius: 10px;
+    background:#BDBDBD ;
+    padding: 27px 37px;
+    border-radius: 50px;
   }
 }
 >h5{
   font-size: 2rem;
   color: white;
-  
+}
+@media (min-width:600px){
+  width: auto;
+  gap:50%
+
+
 }
 `
 export const Container= styled.h2`
@@ -121,15 +122,16 @@ margin-top: 30px;
 `
 export const ButtonSend = styled.button`
 background: #24E0FA;
-    padding: 10px 30px;
-    border-radius: 10px;
+    padding: 10px 20px;
+    border-radius: 9px;
     position: absolute;
-    left: 75%;
+    left: 59%;
     border:none;
 
-`
-
-
+    @media (min-width:600px){
+  width: auto;
+}
+    `
 
 
 

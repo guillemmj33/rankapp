@@ -21,8 +21,8 @@ const Rating = () => {
               <FaStar
                 color={
                   givenRating < rate || givenRating === rate
-                    ? "000"
-                    : "rgb(192,192,192)"
+                    ? "#24E0FA"
+                    : "D9D9D9"
                 }
               />
             </Rate>

@@ -4,7 +4,8 @@ import zoom from "../../assets/img rankapp/zom.png";
 import Rating from "../Rating";
 import {AiOutlineLike,AiOutlineDislike} from 'react-icons/ai'
 import {BsStarFill} from 'react-icons/bs'
-import { ContainerP, ContainerI, Title, ContainerButton,WhiteTexto,ContainerM,Texte, Form,ButtonSend,ContainerContador } from "./mainStyles";
+import { ContainerP, ContainerI, Title, ContainerButton,WhiteTexto,
+  ContainerM, Texte, Form,ButtonSend,ContainerContador } from "./mainStyles";
 
 const Main = () => {
     const [like,setLike] = useState(null)
@@ -44,7 +45,7 @@ const Main = () => {
       </WhiteTexto>
       <ContainerM>
         <div>
-          <h2>4.5</h2>
+          <h1>4.5</h1>
           <p>
           <BsStarFill style={{color: "#24E0FA"}}/>
           <BsStarFill style={{color: "#24E0FA"}}/>

@@ -6,7 +6,7 @@ export const Container = styled.div`
    align-items: center;
    min-height: 2vh;
    font-size: 60px;
-   background-color: aqua;
+   background-color: #BDBDBD;
    border-radius: 25px;
 `
 export const Radio = styled.input`
