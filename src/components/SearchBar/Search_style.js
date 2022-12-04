@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const SearchContainer=styled.div`
 /* background: var(--purple); */
@@ -10,7 +10,6 @@ color:white;
 margin-bottom:1%;
 margin-top:1%;
 
-
 `
 
 export const SearchBarStyle= styled.div`
@@ -19,6 +18,14 @@ width:50%;
 overflow: scroll;
 overflow-x: hidden;
 font-size: small;
+//para modificar el placeholder mario! :) 
+::placeholder {
+        padding-left: 10px;
+}
+
+::text {
+        padding-left: 10px;
+    }
 
 &::-webkit-scrollbar{
     height: 1px;
@@ -31,7 +38,7 @@ font-size: small;
 }
 
 p{
-    margin-left: 2%;
+    margin-left: 3%;
     line-height: 40%;
     margin-top: 1%;
 }
@@ -53,5 +60,4 @@ top:0;
     background: black;
     transition: all 0.1s ease-out;
 }
-
 `;

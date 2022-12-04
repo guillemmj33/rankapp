@@ -11,9 +11,9 @@ function App() {
   return (
       <BrowserRouter>
         <div className="App">
-          <Searchbar />
+          {/* <Searchbar /> */}
           {/* <Navbar/> */}
-          <Home/>
+          {/* <Home/> */}
           <Router/>
         </div>
       </BrowserRouter>

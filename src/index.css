@@ -14,6 +14,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.main{
+  overflow: hidden;
+  max-width: 1000px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   line-height: normal;
@@ -25,12 +30,12 @@ p {
 }
 
 :root {
-  --title: #ffffff;
-  --text: #ffffff;
-  --white: #ffffff;
+  --title: #e9e9e9;
+  --text: #e9e9e9;
+  --white: #e9e9e9;
   --grey: #BDBDBD;
   --black-1: #000000;
-  --black-2: #313131;
+  --black-2: #1c1c1c;
 
   --blue: #24E0FA;
   --blue-2: #4aeaff2a;

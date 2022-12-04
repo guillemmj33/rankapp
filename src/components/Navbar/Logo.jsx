@@ -1,11 +1,10 @@
 import React from 'react';
-import { LogoContainer, LetraLogo, CirculoLogo } from './Logo';
+import { LogoContainer } from './LogoStyle';
 
 const Logo = () => {
 return (
     <LogoContainer>
-        <h1>RankApp</h1>
-        <div></div>
+        <img src="" alt="" />
     </LogoContainer>
 )
 }
