@@ -3,15 +3,17 @@ import styled from 'styled-components';
 export const Box = styled.div`
         display: flex;
         height: 30vh;
-        top: 45%;
+        top: 20%;
         flex-direction: column;
         position: fixed;
-        a{
+
+        a {
             width: 2em;
             font-size: 50px;
         }
+
         svg{
-            color: #313131;
+            color: var(--black-2);
             &:hover{
             color: var(--blue);}
         }

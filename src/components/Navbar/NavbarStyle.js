@@ -18,9 +18,11 @@ export const NavContainer = styled.div`
 			cursor: pointer;
     }
 
-    h3 {
-			display: none;
-    }
+		@media screen and (max-width: 767px) {
+			h3 {
+				display: none;
+			}
+		}
 
     @media screen and (min-width: 768px) and (max-width: 1023px) {
 			width: 35%;
@@ -39,6 +41,10 @@ export const NavContainer = styled.div`
 				display: none;
 			}
 		}
+
+		@media screen and (min-width: 1024px) {
+			background-color: transparent;
+		}
 `;
 
 export const MediaContainer = styled.div`
@@ -54,6 +60,56 @@ export const MediaContainer = styled.div`
     @media screen and (min-width: 768px) and (max-width: 1023px) {
 			display: none;
     }
+
+		@media screen and (min-width: 1024px) and (max-width: 1439px) {
+			width: 50%;
+			height: 100%;
+			display: flex;
+			
+			div {
+				width: 100%;
+				display: flex;
+			}
+
+			svg {
+				color: var(--white);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: -99px;
+				top: -680px;
+				margin-left: 32px;
+			}
+
+			h3 {
+				display: none;
+			}
+		}
+
+		@media screen and (min-width: 1440px) {
+			width: 50%;
+			height: 100%;
+			display: flex;
+			
+			div {
+				width: 100%;
+				display: flex;
+			}
+
+			svg {
+				color: var(--white);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: -99px;
+				top: -680px;
+				margin-left: 32px;
+			}
+
+			h3 {
+				font-family: var(--font-text);
+			}
+		}
 `;    
 
 export const RankingContainer = styled.div`
@@ -133,6 +189,42 @@ export const RankingContainer = styled.div`
 				display: none;
 			}
     }
+
+		@media screen and (min-width: 1024px) and (max-width: 1439px) {
+			height: 50%;
+			background-color: transparent;
+			
+			svg {
+				color: var(--white);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: -65px;
+				top: -750px;
+			}
+
+			h3 {
+				display: none;
+			}
+		}
+
+		@media screen and (min-width: 1440px) {
+			height: 50%;
+			background-color: transparent;
+			
+			svg {
+				color: var(--white);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: -65px;
+				top: -750px;
+			}
+
+			h3 {
+				font-family: var(--font-text);
+			}
+		}
 `;
 
 export const PlusContainer = styled.div`
@@ -163,15 +255,61 @@ export const PlusContainer = styled.div`
 			}
 
 			h3 {
-				font-size: 15px; 
+				display: none;
 			}
     }
 
 		@media screen and (min-width: 1024px) and (max-width: 1439px) {
+			.dot-plus {
+				position: absolute;
+				left: 83px;
+				top: -610px; 
+				height: 35px;
+				width: 37px;
+				background-color: var(--blue);
+				border-radius: 50%;
+				display: inline-block;
+			}
 
+			svg {
+				color: var(--black);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: -67px;
+				top: -608px;  
+				cursor: pointer;
+			}
+
+			h3 {
+				display: none;
+			}
 		}
 
 		@media screen and (min-width: 1440px) {
-			
+			.dot-plus {
+				position: absolute;
+				left: 83px;
+				top: -610px; 
+				height: 35px;
+				width: 37px;
+				background-color: var(--blue);
+				border-radius: 50%;
+				display: inline-block;
+			}
+
+			svg {
+				color: var(--black);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: -67px;
+				top: -608px;  
+				cursor: pointer;
+			}
+
+			h3 {
+				font-family: var(--font-text);
+			}
 		}
 `;

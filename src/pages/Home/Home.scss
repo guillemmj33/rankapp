@@ -6,6 +6,14 @@ main {
     left: 0;
     margin-left: 18px;
   }
+  
+  .logoMain {
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin-left: 50px;
+  }
 
   .homeBtn {
     display: flex;
@@ -165,12 +173,20 @@ main {
   .logoTablet {
     display: none;
   }
+
+  .logoMain {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 720px;
     padding-left: 100px;
+
+    .logoMain {
+      display: none;
+    }
 
     .data {
       margin-top: 25px;
@@ -199,19 +215,129 @@ main {
       }
 
       .paginationBtns {
-        margin-bottom: 40px;
+        margin-bottom: 15px;
       }
     }
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   .container {
-    max-width: 720px;
+    max-width: 576px;
+    padding-left: 0;
+
+    .logoTablet {
+      display: none;
+    }
 
     .data {
+      margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: 20px;
+      background-color: var(--black-2);
+      border-radius: 15px;
+      padding: 20px;
+      
+      .data__card {
+        display: flex;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(40, 40, 40);
+        flex-direction: row;
+        gap: 15px;
+  
+        img {
+          border-radius: 10px;
+          width: 70px;
+          height: auto;
+          order: 1;
+        }
+
+        .data__info {
+          h4 {
+            font-size: 1rem;
+            color: var(--white);
+            font-weight: 700;
+          }
+
+          h5 {
+            font-size: 0.8rem;
+            font-style: italic;
+            color: var(--blue);
+          }
+
+          h6 {
+            font-size: 0.8rem;
+            overflow: hidden;
+          }
+        }
+      }
+
       .paginationBtns {
-        margin-bottom: 40px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .logoTablet {
+    display: none;
+  }
+
+  .container {
+    max-width: 720px;
+    padding-left: 0;
+
+    .data {
+      margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: 20px;
+      background-color: var(--black-2);
+      border-radius: 15px;
+      padding: 20px;
+      
+      .data__card {
+        display: flex;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(40, 40, 40);
+        flex-direction: row;
+        gap: 15px;
+  
+        img {
+          border-radius: 10px;
+          width: 70px;
+          height: auto;
+          order: 1;
+        }
+
+        .data__info {
+          h4 {
+            font-size: 1rem;
+            color: var(--white);
+            font-weight: 700;
+          }
+
+          h5 {
+            font-size: 0.8rem;
+            font-style: italic;
+            color: var(--blue);
+          }
+
+          h6 {
+            font-size: 0.8rem;
+            overflow: hidden;
+          }
+        }
+      }
+
+      .paginationBtns {
+        margin-bottom: 15px;
       }
     }
   }

@@ -6,6 +6,7 @@ import ReactPaginate from 'react-paginate';
 import dataAPI from '../../data/dataAPI.json';
 import SearchBar from '../../components/SearchBar/Searchbar';
 import logoTablet from '../../assets/Images/logo-tablet.png';
+import logoMain from '../../assets/Images/logo-main.png';
 
 const Home = () => {
   const data = dataAPI.data;
@@ -118,6 +119,7 @@ const Home = () => {
   return (
     <main className="container">
       <img className="logoTablet" src={logoTablet} alt="logo tablet" />
+      <img className="logoMain" src={logoMain} alt="logo main" />
       <SearchBar></SearchBar>
       <section className="homeBtn">
         <div className="filterBtn">
