@@ -18,8 +18,12 @@ export const Box2 = styled.div`
                 color: var(--blue);
             }
         }
+<<<<<<< HEAD
+        @media screen and (max-width: 1023px) {
+=======
 
         @media screen and (max-width: 1023px){
+>>>>>>> guillemDev
             display: none;
         }
     
