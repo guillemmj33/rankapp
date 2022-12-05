@@ -2,7 +2,6 @@ import './App.css';
 import './global.scss';
 import Home from './pages/Home/Home';
 import Search from './pages/Search/Search';
-import Info from './pages/Info/Info';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Trending from './components/Trending/Trending';
 import MediasDesktop from './components/Medias/MediasDesktop';
