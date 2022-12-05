@@ -21,7 +21,7 @@ export const NavContainer = styled.div`
     }
 
     @media screen and (min-width: 600px){
-            width: 50%;
+            width: 40%;
             height: 20%;
             display: flex;
             justify-content: center;
@@ -35,37 +35,35 @@ export const NavContainer = styled.div`
             h3{
                 display: flex;
                 width: 50%;
-                font-size: 12px;
+                font-size: 10px;
                 margin: auto;
                 color: white;
             }
+    @media screen and (min-width: 700px) {
+        width: 35%;
+        h3{
+            font-size: 10px;
+        }
+    }
+    @media screen and (min-width: 900px) {
+        width: 35%;
+        h3{
+            font-size: 10px;
+        }
+    }
     }
 `;
 
-export const RedesContainer = styled.div`
+export const MediaContainer = styled.div`
     width: 33%;
     height: 100%;
     display: flex;
-    @media screen and (min-width: 600px){
-            width: 40%;
-            height: 50%;
-            display: flex;
-            flex-direction: row-reverse;
-            background-color: var(--grey);
-            top: 20%;
-            margin-left: 0.5em;
-            border-radius: 1em;
-            align-items: center;
+    div{
+        width: 100%;
+        display: flex;
     }
-    @media screen and (min-width: 700px) {
-        width: 50%;
-        svg{
-            width: 40%;
-            margin: auto;
-        }
-        h3{
-            font-size: 20px;
-        }
+    @media screen and (min-width: 600px){
+        display: none;
     }
 `;    
 
@@ -99,7 +97,7 @@ export const RankingContainer = styled.div`
             margin: auto;
         }
         h3{
-            font-size: 20px;
+            font-size: 15px;
         }
     }
 `;
@@ -133,7 +131,7 @@ export const PlusContainer = styled.div`
             width: 30%;
         }
         h3{
-            font-size: 20px; 
+            font-size: 15px; 
         }
     }
 `;
