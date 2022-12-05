@@ -14,13 +14,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Route>
-        <MediasDesktop></MediasDesktop>
-        <Navbar/>
-        <Trending/>
 
+      <Route>
+        {/* <MediasDesktop></MediasDesktop>
+        <Navbar/>
+        <Addapp/>
+        <Trending/> */}
+        
         <Routes>
-            <Route path='/' element={<Home />}></Route>
+            <Route path='/login' element={<Login />}></Route>
+            <Route path='/inicio' element={<Inicio/>}></Route>
+            <Route path='/home' element={<Home />}></Route>
             <Route path='/search' element={<Search />}></Route>
             <Route path='/info:id' element={<Info />}></Route>
         </Routes>

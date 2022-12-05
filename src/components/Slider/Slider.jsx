@@ -1,24 +1,16 @@
-import React from 'react';
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import React from "react";
+import './SlidesShow';
+import { SlidesShow, Title } from "./SlidesShow";
 
 const Slider = () => {
     return (
-        <div>
-            <div>
-                <a href="#" alt="imgSlider">
-
-                </a>
-            </div>
-        <div>
-            <button>
-                <FaChevronLeft></FaChevronLeft>
-            </button>
-            <button>
-                <FaChevronRight></FaChevronRight>
-            </button>
-        </div>
-        </div>
-    )
+        <>
+            <main>
+                <Title>Top Apps</Title>
+                <SlidesShow></SlidesShow>
+            </main>
+        </>
+        )
 }
 
 export default Slider
