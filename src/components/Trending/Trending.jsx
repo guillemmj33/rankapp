@@ -5,7 +5,7 @@ import dataAPI from '../../data/dataAPI.json';
 const Trending = () => {
   const data = dataAPI.data;
 
-  const result = data
+  const resultTrending = data
     .sort((a, b) => (a.num_downloads_exact < b.num_downloads_exact ? 1 : -1))
   ;
 
@@ -14,7 +14,7 @@ const Trending = () => {
         <TrendingContainer>
             <h3>Trending</h3>
             {
-              result.map(data => {
+              resultTrending.map(data => {
                 return (
                   <div className="trending__card">
                       <img src={data.app_icon} width="50" height="50" alt={data.app_name} />

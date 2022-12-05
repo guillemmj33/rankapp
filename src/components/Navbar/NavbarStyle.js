@@ -98,16 +98,21 @@ export const MediaContainer = styled.div`
 
 			svg {
 				color: var(--white);
-				padding: 2px;
 				width: 33%;
 				position: absolute;
-				left: -99px;
-				top: -680px;
-				margin-left: 32px;
+				left: -150px;
+				top: -790px;
 			}
 
 			h3 {
 				font-family: var(--font-text);
+				position: absolute;
+				top: -878px;
+				left: 120px;
+				font-weight: 700;
+				color: var(--white);
+				font-size: 1.4rem;
+				font-style: italic;
 			}
 		}
 `;    
@@ -214,15 +219,21 @@ export const RankingContainer = styled.div`
 			
 			svg {
 				color: var(--white);
-				padding: 2px;
 				width: 33%;
 				position: absolute;
-				left: -65px;
-				top: -750px;
+				left: -150px;
+				top: -880px;
 			}
 
 			h3 {
 				font-family: var(--font-text);
+				position: absolute;
+				top: -790px;
+				left: 120px;
+				font-weight: 700;
+				color: var(--white);
+				font-size: 1.4rem;
+				font-style: italic;
 			}
 		}
 `;
@@ -289,8 +300,8 @@ export const PlusContainer = styled.div`
 		@media screen and (min-width: 1440px) {
 			.dot-plus {
 				position: absolute;
-				left: 83px;
-				top: -610px; 
+				left: 70px;
+				top: -700px; 
 				height: 35px;
 				width: 37px;
 				background-color: var(--blue);
@@ -303,13 +314,20 @@ export const PlusContainer = styled.div`
 				padding: 2px;
 				width: 33%;
 				position: absolute;
-				left: -67px;
-				top: -608px;  
+				left: -149px;
+				top: -698px;  
 				cursor: pointer;
 			}
 
 			h3 {
 				font-family: var(--font-text);
+				position: absolute;
+				top: -700px;
+				left: 120px;
+				font-weight: 700;
+				color: var(--white);
+				font-size: 1.4rem;
+				font-style: italic;
 			}
 		}
 `;
