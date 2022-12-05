@@ -3,21 +3,31 @@ import styled from 'styled-components';
 export const Box2 = styled.div`
         display: flex;
         height: 30vh;
-        top: 65%;
-        margin-left: 80%;
+        top: 48%;
+        margin-left: 79.5%;
         position: fixed;
-        width: 50%;
-        a{
+        width: 48%;
+
+        a {
             width: 2em;
             font-size: 1em;
         }
-        svg{
-            color: #313131;
+        svg {
+            color: var(--black-2);
             &:hover{
-        color: var(--blue);}
+                color: var(--blue);
+            }
         }
+<<<<<<< HEAD
         @media screen and (max-width: 1023px) {
+=======
+
+        @media screen and (max-width: 1023px){
+>>>>>>> guillemDev
             display: none;
+        }
+    
+        @media screen and (min-width: 1024px) {
         }
 `;
 

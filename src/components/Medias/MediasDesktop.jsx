@@ -24,4 +24,4 @@ const MediasDesktop = () => {
     )
 }
 
-export default MediasDesktop
+export default MediasDesktop;
