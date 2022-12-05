@@ -15,6 +15,10 @@ export const Box = styled.div`
             &:hover{
             color: var(--blue);}
         }
+
+        @media screen and (max-width: 1023px) {
+            display: none;
+        }
 `;
 
 export const FacebookContainer = styled.div`

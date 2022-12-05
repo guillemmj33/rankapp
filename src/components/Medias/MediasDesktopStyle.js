@@ -16,7 +16,7 @@ export const Box2 = styled.div`
             &:hover{
         color: var(--blue);}
         }
-        @media (max-width: 600px){
+        @media screen and (max-width: 1023px) {
             display: none;
         }
 `;
