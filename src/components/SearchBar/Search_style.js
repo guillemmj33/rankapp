@@ -38,7 +38,7 @@ font-size: small;
 }
 
 p{
-    margin-left: 3%;
+    margin-left: 5%;
     line-height: 40%;
     margin-top: 1%;
 }

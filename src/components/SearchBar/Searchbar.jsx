@@ -9,13 +9,14 @@ export default function Searchbar() {
 
   useEffect(() => {
     //creamos una variable llamada 'data' para acceder a los objetos del array
-    let data = dataAPI.data;
     if (query !== "") {
       const out = dataAPI.data
-        .filter((item) =>
-          item.app_name.toLowerCase().indexOf(query) !== -1 ? true : false
+        .filter((itemname) =>
+          itemname.app_name.toLowerCase().indexOf(query) !== -1 ? true : false
         )
-        .map((item) => item.app_name);
+        .map((itemname) => <li>
+        <a href={itemname.app_developer_website} target="_blank" rel="noopener noreferrer">{itemname.app_name}</a> 
+      </li>);
       setSuggestions(out);
     }
   }, [query]);
