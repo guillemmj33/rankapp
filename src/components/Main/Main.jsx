@@ -1,14 +1,15 @@
 import React , {useState}from "react";
 // import data from '../../data/data.json'
-import zoom from "../../assets/img rankapp/zom.png";
+import zoom from '../../assets/Logos/zom.png';
 import Rating from "../Rating";
 import {AiOutlineLike,AiOutlineDislike} from 'react-icons/ai'
 import {BsStarFill} from 'react-icons/bs'
 import { ContainerP, ContainerI, Title, ContainerButton,WhiteTexto,
   ContainerM, Texte, Form,ButtonSend,ContainerContador } from "./mainStyles";
 
+
 const Main = () => {
-    const [like,setLike] = useState(null)
+    const [/*like*/,setLike] = useState(null)
     const [disLike,setDisLike] = useState(null)
     function voto (voto){
         if(voto && "like"){
