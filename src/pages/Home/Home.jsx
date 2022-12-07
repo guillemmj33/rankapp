@@ -73,25 +73,28 @@ const Home = () => {
     asignDevice();
 
     /******************** POPULAR ********************/
+    /* rating de 4 a 5 incluidos */
     const filterPopularApps = () => {
       const result = data.filter((element) => {
-        return element.chart_rank <= 1;
+        return element.rating >= 4 && element.rating <= 5;
       });
       setApps(result);
     }
     
     /******************** MEDIUM ********************/
+    /* rating de 3 */
     const filterMediumApps = () => {
       const result = data.filter((element) => {
-        return element.chart_rank >= 2 && element.chart_rank <= 4;
+        return element.rating === 3;
       });
       setApps(result);
     }
     
     /******************** WORST ********************/
+    /* rating de 2 o menos incluido */
     const filterWorstApps = () => {
       const result = data.filter((element) => {
-        return element.chart_rank === 5;
+        return element.rating <= 2;
       });
       setApps(result);
     }

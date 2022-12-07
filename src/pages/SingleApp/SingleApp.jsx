@@ -61,7 +61,7 @@ const SingleApp = () => {
     <div className="container" key={filterData[0].app_name}>
       <SearchBar />
       <div className="box__1">
-        <img src={filterData[0].app_icon} width="100" alt="app icon" />
+        <a href={filterData[0].app_page_link} target="_blank" rel="noreferrer"><img src={filterData[0].app_icon} width="100" alt="app icon" /></a>
         <h2>{filterData[0].app_name}</h2>
         <div className="btn__likeDislike">
           <button type="submit" onClick={addLike} className={[likeActive ? 'btn__likeActive' : null, 'button'].join(' ')}>
