@@ -1,12 +1,16 @@
 import React from 'react'
-import Slider from '../../components/Slider/Slider'
+import Swiper from '../../components/Swiper/Swiper'
 
-function Inicio() {
-    return (
-        <main>
-            <Slider></Slider>
-        </main>
-    )
+
+const Inicio = () => {
+  return (
+    <>
+    <div> 
+      <Swiper/>
+    </div>
+        
+    </>
+  )
 }
 
 export default Inicio

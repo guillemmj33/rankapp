@@ -1,35 +1,37 @@
 import './App.css';
 import './global.scss';
+import Navbar from './components/Navbar/Navbar.jsx';
+// import Trending from './components/Trending/Trending';
+// import MediasDesktop from './components/Medias/MediasDesktop';
+// import Addapp from './components/AddApp/Addapp';
 import Home from './pages/Home/Home';
 import Search from './pages/Search/Search';
-import Navbar from './components/Navbar/Navbar.jsx';
-import Trending from './components/Trending/Trending';
-import MediasDesktop from './components/Medias/MediasDesktop';
+import Info from './pages/Info/Info';
+import Inicio from './pages/Inicio/Inicio';
 
+import { 
+  BrowserRouter as Router, 
+  Routes, 
+  Route
+} from 'react-router-dom';
 
-
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-
-      <Route>
-        {/* <MediasDesktop></MediasDesktop>
+        <Router>
+        {/* <MediasDesktop></MediasDesktop> */}
         <Navbar/>
-        <Addapp/>
+        {/* <Addapp/>
         <Trending/> */}
-        
         <Routes>
-            <Route path='/login' element={<Login />}></Route>
-            <Route path='/inicio' element={<Inicio/>}></Route>
-            <Route path='/home' element={<Home />}></Route>
+            <Route path='/' element={<Home />}></Route>
             <Route path='/search' element={<Search />}></Route>
             <Route path='/info:id' element={<Info />}></Route>
+            <Route path= '/Inicio' element= {<Inicio/>}></Route>
         </Routes>
+        </Router>
         
-      </Route>
     </div>
   );
 }
