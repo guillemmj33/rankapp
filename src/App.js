@@ -18,8 +18,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <MediasDesktop></MediasDesktop>
-        <Navbar/>
+        <MediasDesktop />
+        <Navbar />
 
         <Routes>
             <Route path='/' element={<Home />}></Route>
@@ -28,7 +28,7 @@ function App() {
             <Route path='/info:id' element={<Info />}></Route>
         </Routes>
 
-        <Trending/>
+        <Trending />
       </Router>
     </div>
   );

@@ -1,4 +1,6 @@
 .container {
+  margin-bottom: 80px;
+
   .box__1 {
     display: flex;
     flex-direction: column;
@@ -34,6 +36,21 @@
         i {
           font-size: 2rem;
           color: var(--blue);
+        }
+      }
+
+      //solamente se activa cuando apretamos el botón
+      .btn__likeActive {
+        background-color: var(--blue);
+        i {
+          color: var(--black--2);
+        }
+      }
+
+      .btn__dislikeActive {
+        background-color: var(--blue);
+        i {
+          color: var(--black--2);
         }
       }
     }
@@ -154,11 +171,13 @@
       button {
         background-color: var(--blue);
         border: none;
-        width: 20%;
+        padding: 2px 15px;
         border-radius: 5px;
         margin-top: 15px;
         margin-left: auto;
         margin-right: 0;
+        font-weight: 500;
+        font-family: ar(--font-text);
       }
     }
 
@@ -189,6 +208,76 @@
           &:hover {
             color: var(--blue);
           }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .container {
+    .box__1 {
+      h2 {
+        font-size: 1.5rem;
+      }
+      .description {
+        padding: 10px 30px;
+        font-size: 1rem;
+      }
+    }
+
+    .box__2 {
+      font-size: 1.2rem;
+      .box__2_1 {
+        .box__2_1--1 {
+          h2 {
+            font-size: 3rem;
+          }
+
+          h5 {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .box__2_2 {
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    .box__1 {
+      h2 {
+        font-size: 1.5rem;
+      }
+      .description {
+        padding: 10px 30px;
+        font-size: 1.2rem;
+      }
+    }
+
+    .box__2 {
+      font-size: 1.2rem;
+      .box__2_1 {
+        .box__2_1--1 {
+          h2 {
+            font-size: 3rem;
+          }
+
+          h5 {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .box__2_2 {
+        p {
+          font-size: 1rem;
         }
       }
     }

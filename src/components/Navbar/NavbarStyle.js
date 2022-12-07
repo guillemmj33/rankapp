@@ -125,7 +125,7 @@ export const RankingContainer = styled.div`
 		@media screen and (min-width: 320px) and (max-width: 374px) {
 			.dot-ranking {
 				position: absolute;
-				left: 132px;
+				left: 130px;
 				top: 7px; 
 				height: 45px;
 				width: 58px;
