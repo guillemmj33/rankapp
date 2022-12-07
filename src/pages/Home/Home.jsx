@@ -9,7 +9,11 @@ import logoTablet from '../../assets/Images/logo-tablet.png';
 import logoMain from '../../assets/Images/logo-main.png';
 
 const Home = () => {
-  const data = dataAPI.data;
+
+  //filtro para que las apps estén ordenadas alfabéticamente
+  const data = dataAPI
+  .data
+  .sort((a, b) => (a.app_name < b.app_name ? -1 : 1));
 
   /******************** PAGINATION ********************/
   //hacemos que solo aparezcan 10 apps, de 0 a 10, el 10 no incluido
@@ -25,7 +29,7 @@ const Home = () => {
     .map((app) => {
       return (
         <div className="data__card">
-          <img src={app.app_icon} width="50" height="50" alt={app.app_name} />
+          <a href={`../SingleApp:${app.app_name}`}><img src={app.app_icon} width="50" height="50" alt={app.app_name} /></a>
           <div className="data__info">
             <h4>{app.app_name}</h4>
             <div className="data__rating">

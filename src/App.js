@@ -20,15 +20,15 @@ function App() {
       <Router>
         <MediasDesktop></MediasDesktop>
         <Navbar/>
-        <Trending/>
 
         <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/search' element={<Search />}></Route>
-            <Route path='/singleApp' element={<SingleApp />}></Route>
+            <Route path='/singleApp:app_name' element={<SingleApp />}></Route>
             <Route path='/info:id' element={<Info />}></Route>
         </Routes>
-        
+
+        <Trending/>
       </Router>
     </div>
   );
