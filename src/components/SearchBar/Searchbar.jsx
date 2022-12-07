@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ResultContainer} from "./ResultContainer"
 import dataAPI from "../../data/dataAPI.json";
-import { SearchBarStyle, SearchContainer } from "./Search_style";
+import { SearchBarStyle, SearchContainer,ListSearchBar, LinkStyleSearchBAr } from "./Search_style";
 
 export default function Searchbar() {
   const [query, setQuery] = useState("");
@@ -14,9 +14,9 @@ export default function Searchbar() {
         .filter((itemname) =>
           itemname.app_name.toLowerCase().indexOf(query) !== -1 ? true : false
         )
-        .map((itemname) => <li>
-        <a href={itemname.app_developer_website} target="_blank" rel="noopener noreferrer">{itemname.app_name}</a> 
-      </li>);
+        .map((itemname) => <ListSearchBar>
+        <LinkStyleSearchBAr href={itemname.app_developer_website} target="_blank" rel="noopener noreferrer">{itemname.app_name}</LinkStyleSearchBAr> 
+      </ListSearchBar>);
       setSuggestions(out);
     }
   }, [query]);

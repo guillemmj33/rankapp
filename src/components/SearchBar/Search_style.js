@@ -6,11 +6,23 @@ width: 100%;
 display: flex;
 justify-content: center;
 height: 11vh;
-color:white;
+color:var(--white);
 margin-bottom:1%;
 margin-top:1%;
-
 `
+export const ListSearchBar=styled.li`
+text-decoration: none;
+list-style: none;
+`
+export const LinkStyleSearchBAr= styled.a`
+color:white;
+&:active,:link,:visited{
+    text-decoration: none;
+}
+
+&:hover{
+    color:var(--blue);
+}`
 
 export const SearchBarStyle= styled.div`
 /* background: blue; */
@@ -49,7 +61,7 @@ background:var(--black-2);
 border-radius: 15px;
 border:0;
 width:100%;
-color:white;
+color:var(--white);
 padding: 7px;
 position: sticky;
 top:0;
