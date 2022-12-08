@@ -5,6 +5,7 @@ export const LogoContainer = styled.div`
     height: 50%;
     color: var(--title);
     display: flex;
+    
     margin: 1.5em;
     margin-top: 2em;
     h1{
@@ -13,17 +14,18 @@ export const LogoContainer = styled.div`
         font-family: 'Acme', sans-serif;
     }
     div{
-        background-color: var(--purple);
+        background-color: var(--blue);
         width: 3em;
         height: 3em;
         border-radius: 50%;
         z-index: -1;
-        position: relative;
+        position: fixed;
         margin-left: 8rem;
         margin-top: -1rem;
     }
     @media screen and (max-width: 600px) {
         display: none;
+        
     }
 `;
 
