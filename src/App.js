@@ -5,12 +5,14 @@ import Navbar from './components/Navbar/Navbar'
 import dataAPI from './data/dataAPI.json';
 import { BrowserRouter } from "react-router-dom";
 import Router from "./Routes";
+import Swiper from "./components/Swiper/Swiper"
 
 function App() {
   
   return (
       <BrowserRouter>
         <div className="App">
+          <Swiper/>
           {/* <Searchbar /> */}
           {/* <Navbar/> */}
           {/* <Home/> */}
