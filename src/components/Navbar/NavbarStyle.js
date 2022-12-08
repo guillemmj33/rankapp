@@ -137,6 +137,9 @@ export const RankingContainer = styled.div`
 			svg {
 				color: var(--black-1);
 				z-index: 1;
+				position: absolute;
+				left: 110px;
+				top: 15px;
 			}
 		}
 
@@ -155,6 +158,9 @@ export const RankingContainer = styled.div`
 			svg {
 				color: var(--black-1);
 				z-index: 1;
+				position: absolute;
+				left: 128px;
+				top: 15px;
 			}
 		}
 
@@ -173,6 +179,9 @@ export const RankingContainer = styled.div`
 			svg {
 				color: var(--black-1);
 				z-index: 1;
+				position: absolute;
+				left: 146px;
+				top: 15px;
 			}
 		}
 
@@ -243,6 +252,42 @@ export const PlusContainer = styled.div`
     height: 100%;
     display: flex;
 
+		@media screen and (min-width: 320px) and (max-width: 374px) {
+			svg {
+				color: var(--blue);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: 210px;
+				top: 15px;  
+				cursor: pointer;
+			}
+		}
+
+		@media screen and (min-width: 375px) and (max-width: 424px) {
+			svg {
+				color: var(--blue);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: 240px;
+				top: 15px;  
+				cursor: pointer;
+			}
+		}
+
+		@media screen and (min-width: 425px) and (max-width: 767px) {
+			svg {
+				color: var(--blue);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: 270px;
+				top: 15px;  
+				cursor: pointer;
+			}
+		}
+
     @media screen and (min-width: 768px) and (max-width: 1023px) {
 			.dot-plus {
 				position: absolute;
@@ -256,7 +301,7 @@ export const PlusContainer = styled.div`
 			}
 
 			svg {
-				color: var(--black);
+				color: var(--black-2);
 				padding: 2px;
 				width: 33%;
 				position: absolute;
@@ -283,7 +328,7 @@ export const PlusContainer = styled.div`
 			}
 
 			svg {
-				color: var(--black);
+				color: var(--black-2);
 				padding: 2px;
 				width: 33%;
 				position: absolute;

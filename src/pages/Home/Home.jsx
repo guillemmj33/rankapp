@@ -2,6 +2,7 @@ import React from 'react';
 import { FilterBtnPopular, FilterBtnMedium, FilterBtnWorst } from '../../components/Buttons/Filter/FilterBtn';
 import { DevicesBtnMobile, DevicesBtnTablet, DevicesBtnDesktop } from '../../components/Buttons/Devices/DevicesBtn';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import ReactPaginate from 'react-paginate';
 import dataAPI from '../../data/dataAPI.json';
 import SearchBar from '../../components/SearchBar/Searchbar';
@@ -125,8 +126,8 @@ const Home = () => {
 
   return (
     <main className="container">
-      <img className="logoTablet" src={logoTablet} alt="logo tablet" />
-      <img className="logoMain" src={logoMain} alt="logo main" />
+      <Link to='/'><img className="logoTablet" src={logoTablet} alt="logo tablet" /></Link>
+      <Link to='/'><img className="logoMain" src={logoMain} alt="logo main" /></Link>
       <SearchBar></SearchBar>
       <section className="homeBtn">
         <div className="filterBtn">

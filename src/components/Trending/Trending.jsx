@@ -17,7 +17,7 @@ const Trending = () => {
             resultTrending.map(data => {
               return (
                 <div className="trending__card">
-                    <img src={data.app_icon} width="50" height="50" alt={data.app_name} />
+                    <a href={data.app_page_link} target="_blank" rel="noopener noreferrer"><img src={data.app_icon} width="50" height="50" alt={data.app_name} /></a>
                     <div className="trending__info">
                       <h4>{data.app_name}</h4>
                       <div className="trending__rating">
