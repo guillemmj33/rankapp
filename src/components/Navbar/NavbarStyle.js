@@ -355,7 +355,7 @@ export const PlusContainer = styled.div`
 			}
 
 			svg {
-				color: var(--black);
+				color: var(--black-2);
 				padding: 2px;
 				width: 33%;
 				position: absolute;

@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const SearchContainer=styled.div`
-/* background: var(--purple); */
 width: 100%;
 display: flex;
 justify-content: center;
-height: 6.5vh;
+height: 7vh;
 color:var(--white);
 margin-top: 10px;
 `
@@ -26,12 +25,10 @@ color:white;
 export const SearchBarStyle= styled.div`
 /* background: blue; */
 width: 100%;
-overflow: scroll;
-overflow-x: hidden;
-font-size: small;
+
 //para modificar el placeholder mario! :) 
 ::placeholder {
-        padding-left: 10px;
+    padding-left: 15px;
 }
 
 ::text {
@@ -57,7 +54,7 @@ p{
 
 export const SearchStyle= styled.input`
 background:var(--black-2);
-border-radius: 15px;
+border-radius: 20px;
 border:0;
 width:100%;
 color:var(--white);
