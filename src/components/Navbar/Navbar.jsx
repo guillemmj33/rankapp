@@ -11,31 +11,35 @@ const Navbar = () => {
   return (
     <>
       <NavContainer>
+
         <MediaContainer>
-          <div onClick= {() => openMedia(!stateMedia)}type="button">
+          <div onClick= {() => openMedia(!stateMedia)} type="button">
             <Medias
             state = {stateMedia}>
             </Medias>
             <h3>Redes</h3>
             <FaUserFriends>
-            <Link to=''></Link>
             </FaUserFriends>
           </div>
         </MediaContainer>
-        <RankingContainer>
+        
+        <Link to='/'>
+          <RankingContainer>
+            <FaTrophy>
+            </FaTrophy>
             <span className="dot-ranking"></span>
             <h3>Ranking</h3>
-            <FaTrophy>
-              <Link to=''></Link>
-            </FaTrophy>
-        </RankingContainer>
-        <PlusContainer>
-            <span className="dot-plus"></span>
-            <h3>Add App</h3>
-            <FaPlus>
-              <Link to=''></Link>
-            </FaPlus>
-        </PlusContainer>
+          </RankingContainer>
+        </Link>
+
+        <Link to='/addapp'>
+          <PlusContainer>
+              <span className="dot-plus"></span>
+              <h3>Add App</h3>
+              <FaPlus>
+              </FaPlus>
+          </PlusContainer>
+        </Link>
       </NavContainer>
     </>
   )

@@ -98,16 +98,21 @@ export const MediaContainer = styled.div`
 
 			svg {
 				color: var(--white);
-				padding: 2px;
 				width: 33%;
 				position: absolute;
-				left: -99px;
-				top: -680px;
-				margin-left: 32px;
+				left: -150px;
+				top: -690px;
 			}
 
 			h3 {
 				font-family: var(--font-text);
+				position: absolute;
+				top: -690px;
+				left: 120px;
+				font-weight: 700;
+				color: var(--white);
+				font-size: 1.4rem;
+				font-style: italic;
 			}
 		}
 `;    
@@ -120,7 +125,7 @@ export const RankingContainer = styled.div`
 		@media screen and (min-width: 320px) and (max-width: 374px) {
 			.dot-ranking {
 				position: absolute;
-				left: 132px;
+				left: 130px;
 				top: 7px; 
 				height: 45px;
 				width: 58px;
@@ -132,6 +137,9 @@ export const RankingContainer = styled.div`
 			svg {
 				color: var(--black-1);
 				z-index: 1;
+				position: absolute;
+				left: 110px;
+				top: 15px;
 			}
 		}
 
@@ -150,6 +158,9 @@ export const RankingContainer = styled.div`
 			svg {
 				color: var(--black-1);
 				z-index: 1;
+				position: absolute;
+				left: 128px;
+				top: 15px;
 			}
 		}
 
@@ -168,6 +179,9 @@ export const RankingContainer = styled.div`
 			svg {
 				color: var(--black-1);
 				z-index: 1;
+				position: absolute;
+				left: 146px;
+				top: 15px;
 			}
 		}
 
@@ -214,15 +228,21 @@ export const RankingContainer = styled.div`
 			
 			svg {
 				color: var(--white);
-				padding: 2px;
 				width: 33%;
 				position: absolute;
-				left: -65px;
-				top: -750px;
+				left: -150px;
+				top: -780px;
 			}
 
 			h3 {
 				font-family: var(--font-text);
+				position: absolute;
+				top: -780px;
+				left: 120px;
+				font-weight: 700;
+				color: var(--white);
+				font-size: 1.4rem;
+				font-style: italic;
 			}
 		}
 `;
@@ -231,6 +251,42 @@ export const PlusContainer = styled.div`
     width: 33%;
     height: 100%;
     display: flex;
+
+		@media screen and (min-width: 320px) and (max-width: 374px) {
+			svg {
+				color: var(--blue);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: 210px;
+				top: 15px;  
+				cursor: pointer;
+			}
+		}
+
+		@media screen and (min-width: 375px) and (max-width: 424px) {
+			svg {
+				color: var(--blue);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: 240px;
+				top: 15px;  
+				cursor: pointer;
+			}
+		}
+
+		@media screen and (min-width: 425px) and (max-width: 767px) {
+			svg {
+				color: var(--blue);
+				padding: 2px;
+				width: 33%;
+				position: absolute;
+				left: 270px;
+				top: 15px;  
+				cursor: pointer;
+			}
+		}
 
     @media screen and (min-width: 768px) and (max-width: 1023px) {
 			.dot-plus {
@@ -245,7 +301,7 @@ export const PlusContainer = styled.div`
 			}
 
 			svg {
-				color: var(--black);
+				color: var(--black-2);
 				padding: 2px;
 				width: 33%;
 				position: absolute;
@@ -272,7 +328,7 @@ export const PlusContainer = styled.div`
 			}
 
 			svg {
-				color: var(--black);
+				color: var(--black-2);
 				padding: 2px;
 				width: 33%;
 				position: absolute;
@@ -289,8 +345,8 @@ export const PlusContainer = styled.div`
 		@media screen and (min-width: 1440px) {
 			.dot-plus {
 				position: absolute;
-				left: 83px;
-				top: -610px; 
+				left: 70px;
+				top: -600px; 
 				height: 35px;
 				width: 37px;
 				background-color: var(--blue);
@@ -299,17 +355,24 @@ export const PlusContainer = styled.div`
 			}
 
 			svg {
-				color: var(--black);
+				color: var(--black-2);
 				padding: 2px;
 				width: 33%;
 				position: absolute;
-				left: -67px;
-				top: -608px;  
+				left: -149px;
+				top: -598px;  
 				cursor: pointer;
 			}
 
 			h3 {
 				font-family: var(--font-text);
+				position: absolute;
+				top: -600px;
+				left: 120px;
+				font-weight: 700;
+				color: var(--white);
+				font-size: 1.4rem;
+				font-style: italic;
 			}
 		}
 `;
