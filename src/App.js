@@ -7,8 +7,8 @@ import SingleApp from './pages/SingleApp/SingleApp';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Trending from './components/Trending/Trending';
 import MediasDesktop from './components/Medias/MediasDesktop';
-import Swiper from "./components/Swiper/Swiper";
-
+/* import Swiper from "./components/Swiper/Swiper";
+ */
 import { 
   BrowserRouter as Router, 
   Routes, 
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Swiper></Swiper>
+        {/* <Swiper></Swiper> */}
         <MediasDesktop />
         <Navbar />
 
