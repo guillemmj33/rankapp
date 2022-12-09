@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 import {SearchStyle} from "./Search_style";
+// import { linkapi } from "./Functionlink";
+import dataAPI from "../../data/dataAPI.json";
 
 export const ResultContainer = ({ onChange, suggestions }) => {
   const [q, setQ] = useState("");
@@ -42,14 +44,17 @@ export const ResultContainer = ({ onChange, suggestions }) => {
     }
   };
 
+
   return (
     <div onKeyUp={handleKeyUp}>      
       <SearchStyle placeholder="Search app" value={q} onChange={handleChange} />
       {q && (
         <div ref={boxRef} active={active}>
           {suggestions.map((item, i) => (
+          
             <div onMouseOver={() => setActive(i + 1)} key={item}>
-              {item}
+              <p>{item}</p>
+              {/* Poner el item dentro de algo linkeable que conecte por ejemplo, con el id*/}
             </div>
           ))}
         </div>
