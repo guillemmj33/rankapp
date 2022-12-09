@@ -9,6 +9,7 @@ import Trending from './components/Trending/Trending';
 import MediasDesktop from './components/Medias/MediasDesktop';
 /* import Swiper from "./components/Swiper/Swiper";
  */
+import Addapp from './components/AddApp/Addapp';
 import { 
   BrowserRouter as Router, 
   Routes, 
@@ -25,6 +26,7 @@ function App() {
         <Navbar />
 
         <Routes>
+            <Route path='addapp' element={<Addapp />}></Route>
             <Route path='/' element={<Home />}></Route>
             <Route path='/search' element={<Search />}></Route>
             <Route path='/singleApp:app_name' element={<SingleApp />}></Route>

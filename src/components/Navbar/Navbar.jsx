@@ -32,12 +32,14 @@ const Navbar = () => {
           </RankingContainer>
         </Link>
 
-        <PlusContainer>
-            <span className="dot-plus"></span>
-            <h3>Add App</h3>
-            <FaPlus>
-            </FaPlus>
-        </PlusContainer>
+        <Link to='/addapp'>
+          <PlusContainer>
+              <span className="dot-plus"></span>
+              <h3>Add App</h3>
+              <FaPlus>
+              </FaPlus>
+          </PlusContainer>
+        </Link>
       </NavContainer>
     </>
   )

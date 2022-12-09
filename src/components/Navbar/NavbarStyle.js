@@ -101,13 +101,13 @@ export const MediaContainer = styled.div`
 				width: 33%;
 				position: absolute;
 				left: -150px;
-				top: -790px;
+				top: -690px;
 			}
 
 			h3 {
 				font-family: var(--font-text);
 				position: absolute;
-				top: -878px;
+				top: -690px;
 				left: 120px;
 				font-weight: 700;
 				color: var(--white);
@@ -231,13 +231,13 @@ export const RankingContainer = styled.div`
 				width: 33%;
 				position: absolute;
 				left: -150px;
-				top: -880px;
+				top: -780px;
 			}
 
 			h3 {
 				font-family: var(--font-text);
 				position: absolute;
-				top: -790px;
+				top: -780px;
 				left: 120px;
 				font-weight: 700;
 				color: var(--white);
@@ -346,7 +346,7 @@ export const PlusContainer = styled.div`
 			.dot-plus {
 				position: absolute;
 				left: 70px;
-				top: -700px; 
+				top: -600px; 
 				height: 35px;
 				width: 37px;
 				background-color: var(--blue);
@@ -360,14 +360,14 @@ export const PlusContainer = styled.div`
 				width: 33%;
 				position: absolute;
 				left: -149px;
-				top: -698px;  
+				top: -598px;  
 				cursor: pointer;
 			}
 
 			h3 {
 				font-family: var(--font-text);
 				position: absolute;
-				top: -700px;
+				top: -600px;
 				left: 120px;
 				font-weight: 700;
 				color: var(--white);

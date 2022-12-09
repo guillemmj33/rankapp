@@ -5,10 +5,9 @@ export const SearchContainer=styled.div`
 width: 100%;
 display: flex;
 justify-content: center;
-height: 11vh;
+height: 6.5vh;
 color:var(--white);
-margin-bottom:1%;
-margin-top:1%;
+margin-top: 10px;
 `
 export const ListSearchBar=styled.li`
 text-decoration: none;
@@ -26,7 +25,7 @@ color:white;
 
 export const SearchBarStyle= styled.div`
 /* background: blue; */
-width:50%;
+width: 100%;
 overflow: scroll;
 overflow-x: hidden;
 font-size: small;
